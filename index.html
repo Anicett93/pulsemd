@@ -110,6 +110,7 @@ header img {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     margin-top: 40px;
+    justify-items: center; 
 }
 
 .card {
@@ -118,6 +119,7 @@ header img {
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     text-align: center;
+    max-width: 250px;
 }
 
 /* IMAGEM GRANDE */
@@ -168,7 +170,7 @@ footer {
 <!-- HEADER -->
 <header class="container">
     <img src="images/logo.png" alt="Pulse MD">
-    <a class="btn" href="https://wa.me/555193662875">Falar no WhatsApp</a>
+    <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20agendar%20um%20monitoramento%20cardíaco">Falar com especialista</a>
 </header>
 
 <!-- HERO -->
@@ -228,23 +230,47 @@ footer {
 </section>
 
 <!-- PARA QUEM -->
-<section class="section container">
-    <h2>Para quem é indicado</h2>
+<section class="section" style="background:#002BAD; color:white;">
+    <div class="container">
+        <h2>Para quem é indicado</h2>
 
-    <div class="cards">
-        <div class="card">Sintomas esporádicos</div>
-        <div class="card">Investigação médica</div>
-        <div class="card">Acompanhamento cardíaco</div>
-        <div class="card">Holter inconclusivo</div>
+        <div class="cards">
+            <div class="card" style="background:rgba(255,255,255,0.1); color:white;">
+                <img src="images/icone-azul.png" style="height:40px; margin-bottom:10px;">
+                <p>Sintomas esporádicos</p>
+            </div>
+
+            <div class="card" style="background:rgba(255,255,255,0.1); color:white;">
+                <img src="images/icone-azul.png" style="height:40px; margin-bottom:10px;">
+                <p>Investigação médica</p>
+            </div>
+
+            <div class="card" style="background:rgba(255,255,255,0.1); color:white;">
+                <img src="images/icone-azul.png" style="height:40px; margin-bottom:10px;">
+                <p>Acompanhamento cardíaco</p>
+            </div>
+
+            <div class="card" style="background:rgba(255,255,255,0.1); color:white;">
+                <img src="images/icone-azul.png" style="height:40px; margin-bottom:10px;">
+                <p>Holter inconclusivo</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <!-- CTA -->
 <section class="cta">
+    <img src="images/logo-branco.png" style="height:50px; margin-bottom:20px;">
+
     <h2>Agende seu monitoramento agora</h2>
     <p>Atendimento domiciliar em todo o Rio Grande do Sul</p>
     <br>
-    <a class="btn" href="https://wa.me/555193662875">Falar com especialista</a>
+
+    <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20agendar%20um%20monitoramento">Agendar agora</a>
+
+    <p style="margin:20px 0;">ou</p>
+
+    <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20encontrar%20um%20médico%20parceiro">Encontrar um médico</a>
 </section>
 
 <!-- MÉDICOS -->
