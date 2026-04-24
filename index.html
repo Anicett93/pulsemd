@@ -14,6 +14,7 @@ body {
     font-family: 'Inter', sans-serif;
     background: #F6F8FC;
     color: #0A1633;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -79,12 +80,17 @@ header img {
 }
 
 .hero-image {
-    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-image img {
     width: 100%;
+    max-width: 450px; /* 👈 controla o tamanho */
+    height: auto;
     border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
 }
 
 /* SECTION */
