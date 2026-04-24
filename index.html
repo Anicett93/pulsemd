@@ -15,6 +15,7 @@ body {
     background: #F6F8FC;
     color: #0A1633;
     scroll-behavior: smooth;
+    padding-top: 70px;
 }
 
 .container {
@@ -33,6 +34,22 @@ header {
 
 header img {
     height: 60px;
+}
+
+.header-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.header-fixo img {
+    height: 50px;
+    object-fit: contain;
 }
 
 /* BOTÃO */
@@ -181,8 +198,8 @@ footer {
 <body>
 
 <!-- HEADER -->
-<header style="background:white; padding:0;">
-    <img src="images/logo-completo.png" style="width:200%; max-height:200px; object-fit:contain;">
+<header class="header-fixo">
+    <img src="images/logo-completo.png">
 </header>
 
 <!-- HERO -->
@@ -200,12 +217,12 @@ footer {
     </div>
 </section>
 
-<!-- PROBLEMA -->
+<!-- PROBLEMA 
 <section class="section container">
     <h2>Exames pontuais podem não identificar o problema</h2>
     <p>Alterações cardíacas podem acontecer de forma intermitente. O monitoramento contínuo aumenta significativamente a precisão do diagnóstico.</p>
 </section>
-
+-->
 <!-- COMO FUNCIONA (SUA IMAGEM) -->
 <section class="section container">
     <h2>Como funciona o monitoramento</h2>
@@ -290,7 +307,11 @@ footer {
     <h2>Para médicos e clínicas</h2>
     <p>Quer oferecer esse exame aos seus pacientes? Entre em contato e leve mais precisão diagnóstica para sua prática.</p>
     <br>
-    <a class="btn" href="https://wa.me/555193662875">Falar pelo WhatsApp</a>
+    <div style="text-align:center; margin-top:20px;">
+    <a class="btn" href="https://wa.me/555193662875?text=Olá,%20sou%20médico%20e%20quero%20oferecer%20o%20exame">
+        Falar pelo WhatsApp
+    </a>
+</div>
 </section>
 
 <!-- FOOTER -->
