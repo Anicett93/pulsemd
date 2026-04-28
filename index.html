@@ -154,22 +154,46 @@ body {
 }
 
 .hero-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
+
 
 /* TEXTO */
 .hero-text {
-  max-width: 500px;
+  width: 100%;
+  max-width: 600px;
+  height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: left;
+}
+/* TOPO */
+.hero-top h1 {
+  color: white;
+  font-size: 42px;
+  line-height: 1.2;
 }
 
-.hero-text h1 {
-  font-size: 44px;
-  color: white;
+/* BASE */
+.hero-bottom {
+  margin-bottom: 40px;
+}
+
+.hero-bottom p {
+  color: #dbe4ff;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
+/* BOTÃO alinhado à direita */
+.hero-bottom .btn {
+  display: inline-block;
+}
+    
 .hero-text p {
   font-size: 18px;
   color: #dbe4ff;
@@ -336,18 +360,19 @@ footer {
   <div class="hero-overlay">
     <div class="container hero-content">
 
-      <div class="hero-text">
-        <h1>Diagnóstico cardíaco com mais precisão</h1>
-
+      <div class="hero-top">
+        <h1>Monitoramento cardíaco em tempo real, direto da sua casa</h1>
+      </div>
+    
+      <div class="hero-bottom">
         <p>
-          Monitoramento contínuo em casa, com tecnologia avançada e análise especializada.
+          Acompanhe seu exame continuamente com análise remota e ajustes durante o monitoramento — mais precisão do que métodos tradicionais.
         </p>
-
-        <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20fazer%20um%20monitoramento%20cardíaco">
+    
+        <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20saber%20como%20funciona%20o%20monitoramento%20em%20tempo%20real">
           Falar com especialista
         </a>
       </div>
-
     </div>
   </div>
 </section>
