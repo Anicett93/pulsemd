@@ -130,31 +130,50 @@ body {
 
 /* HERO */
 .hero {
-    background: linear-gradient(135deg, #002BAD 0%, #0052FF 100%) !important;
-    color: white;
-    padding: 80px 20px;
+  background: url('images/homem.png') no-repeat center right;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* overlay para melhorar leitura */
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 22, 51, 0.85) 0%,
+    rgba(10, 22, 51, 0.6) 40%,
+    rgba(10, 22, 51, 0.2) 70%,
+    rgba(10, 22, 51, 0) 100%
+  );
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
+/* TEXTO */
 .hero-text {
-    flex: 1;
+  max-width: 500px;
 }
 
 .hero-text h1 {
-    font-family: 'Space Grotesk';
-    font-size: 38px;
-    margin-bottom: 20px;
+  font-size: 44px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .hero-text p {
-    font-size: 18px;
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #dbe4ff;
+  margin-bottom: 30px;
 }
 
 .hero-image {
@@ -314,17 +333,23 @@ footer {
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-overlay">
     <div class="container hero-content">
-        <div class="hero-text">
-            <h1>Monitoramento cardíaco contínuo no conforto da sua casa</h1>
-            <p>Detecte o que exames rápidos podem não captar e tenha mais segurança no seu diagnóstico.</p>
-            <a class="btn" href="https://wa.me/555193662875?text=Olá,%20pode%20me%20e%20passar%20um%20o%20orçamento?">Faça seu ORÇAMENTO</a>
-        </div>
 
-        <div class="hero-image">
-            <img src="images/1_case_hicardi_2d.png" alt="Monitoramento cardíaco">
-        </div>
+      <div class="hero-text">
+        <h1>Diagnóstico cardíaco com mais precisão</h1>
+
+        <p>
+          Monitoramento contínuo em casa, com tecnologia avançada e análise especializada.
+        </p>
+
+        <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20fazer%20um%20monitoramento%20cardíaco">
+          Falar com especialista
+        </a>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <!-- PROBLEMA -->
