@@ -35,51 +35,76 @@ body {
     margin: auto;
     padding: 20px;
 }
+/* TOP BAR */
+.top-bar {
+  background: linear-gradient(90deg, #0A2A8F, #002BAD);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
 
 /* HEADER */
-.header-fixo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white;
-    
-    display: flex;
-    justify-content: center; /* 👈 centraliza horizontal */
-    align-items: center;     /* 👈 centraliza vertical */
-
-    padding: 10px 0;
-    z-index: 999;
-
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+.header {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-.header-fixo img {
-    height: 80px;
-    display: block;
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
 }
 
-@media (max-width: 768px) {
-    
-    .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-text h1 {
-        font-size: 28px;
-    }
-
-    .hero-image img {
-        max-width: 280px;
-        margin-top: 20px;
-    }
-
-    .header-fixo img {
-        height: 40px;
-    }
-
+/* LOGO */
+.logo img {
+  height: 40px;
 }
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #002BAD;
+}
+
+/* ACTIONS */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* BOTÃO */
+.btn-header {
+  background: #16c15f;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-header:hover {
+  background: #13a851;
+}
+
+
 /* BOTÃO */
 .btn {
     background: #00C853;
@@ -226,9 +251,43 @@ footer {
 
 <body>
 
+<!-- TOP BAR -->
+<div class="top-bar">
+  Monitoramento cardíaco prolongado no conforto da sua casa
+</div>
+
 <!-- HEADER -->
-<header class="header-fixo">
-    <img src="images/logo-completo.png">
+<header class="header">
+  <div class="container header-content">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="images/logo.png" alt="Pulse MD">
+    </div>
+
+    <!-- MENU -->
+    <nav class="menu">
+      <a href="#">Exames</a>
+      <a href="#">Publicações</a>
+      <a href="#">Como funciona</a>
+    </nav>
+
+    <!-- ACTIONS -->
+    <div class="actions">
+
+      <!-- SOCIAL -->
+      <a href="#" target="_blank">📱</a>
+      <a href="#" target="_blank">💼</a>
+      <a href="#" target="_blank">📷</a>
+
+      <!-- CTA -->
+      <a href="https://wa.me/555193662875?text=Olá,%20quero%20mais%20informações" class="btn-header">
+        Agendar exame
+      </a>
+
+    </div>
+
+  </div>
 </header>
 
 <!-- HERO -->
