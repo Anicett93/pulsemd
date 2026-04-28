@@ -179,7 +179,50 @@ body {
 }
 
 /* BASE */
-.hero-bottom {
+.hero {
+  background: white;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  padding: 60px 20px;
+  text-align: center;
+  background: white;
+}
+
+.hero-text .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #0A1633;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #4A5568;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-text .btn {
+  display: inline-block;
+  background: #22C55E;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* .hero-bottom {
   margin-bottom: 40px;
 }
 
@@ -212,7 +255,7 @@ body {
     height: auto;
     border-radius: 12px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-}
+} */
 
 /* SECTION */
 .problema {
@@ -387,24 +430,26 @@ footer {
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-overlay">
-    <div class="container hero-content">
-      <div class="hero-top">
-        <h1>Monitoramento cardíaco em tempo real, direto da sua casa</h1>
-      </div>
-    
-      <div class="hero-bottom">
-        <p>
-          Acompanhe seu exame continuamente com análise remota e ajustes durante o monitoramento — mais precisão do que métodos tradicionais.
-        </p>
-    
-        <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20saber%20como%20funciona%20o%20monitoramento%20em%20tempo%20real">
-          Falar com especialista
-        </a>
-      </div>
-     </div>
+
+    <div class="hero-image">
+        <img src="images/homem.png" alt="Monitoramento cardíaco domiciliar">
     </div>
-  </div>
+
+    <div class="hero-text">
+        <div class="container">
+            <h1>Monitoramento cardíaco contínuo com análise em tempo real</h1>
+
+            <p>
+                Acompanhe seu exame continuamente com análise remota e ajustes durante o monitoramento. 
+                Mais precisão do que métodos tradicionais.
+            </p>
+
+            <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20entender%20como%20funciona%20o%20monitoramento%20cardíaco%20domiciliar">
+                Falar com especialista
+            </a>
+        </div>
+    </div>
+
 </section>
 
 <!-- PROBLEMA -->
