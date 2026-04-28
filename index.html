@@ -183,37 +183,42 @@ body {
   background: white;
 }
 
+/* imagem ocupa toda largura */
+.hero-image {
+  width: 100%;
+}
+
 .hero-image img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-.hero-text {
-  padding: 60px 20px;
+/* texto igual ao "problema" */
+.hero-content {
+  padding: 80px 20px;
   text-align: center;
   background: white;
 }
 
-.hero-text .container {
+.hero-content .container {
   max-width: 900px;
   margin: 0 auto;
 }
 
-.hero-text h1 {
+.hero-content h1 {
   font-size: 36px;
-  margin-bottom: 20px;
   color: #0A1633;
+  margin-bottom: 20px;
 }
 
-.hero-text p {
+.hero-content p {
   font-size: 18px;
   color: #4A5568;
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
-.hero-text .btn {
+.hero-content .btn {
   display: inline-block;
   background: #22C55E;
   color: white;
@@ -222,40 +227,6 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
-/* .hero-bottom {
-  margin-bottom: 40px;
-}
-
-.hero-bottom p {
-  color: #dbe4ff;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-/* BOTÃO alinhado à direita */
-.hero-bottom .btn {
-  display: inline-block;
-}
-    
-.hero-text p {
-  font-size: 18px;
-  color: #dbe4ff;
-  margin-bottom: 30px;
-}
-
-.hero-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 450px; /* 👈 controla o tamanho */
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-} */
 
 /* SECTION */
 .problema {
@@ -431,12 +402,15 @@ footer {
 <!-- HERO -->
 <section class="hero">
 
+    <!-- IMAGEM FULL -->
     <div class="hero-image">
         <img src="images/homem.png" alt="Monitoramento cardíaco domiciliar">
     </div>
 
-    <div class="hero-text">
+    <!-- TEXTO ABAIXO -->
+    <div class="hero-content">
         <div class="container">
+
             <h1>Monitoramento cardíaco contínuo com análise em tempo real</h1>
 
             <p>
@@ -447,6 +421,7 @@ footer {
             <a class="btn" href="https://wa.me/555193662875?text=Olá,%20quero%20entender%20como%20funciona%20o%20monitoramento%20cardíaco%20domiciliar">
                 Falar com especialista
             </a>
+
         </div>
     </div>
 
