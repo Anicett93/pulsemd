@@ -366,41 +366,53 @@ footer {
 }
 
 /* ===================== */
+/* ===================== */
 /* 📱 MOBILE */
 /* ===================== */
 @media (max-width: 768px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
     body {
         padding-top: 95px;
+        overflow-x: hidden;
     }
 
     .container {
         padding: 15px;
+        width: 100%;
+        max-width: 100%;
     }
 
     /* HEADER */
     .header-content {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
+        text-align: center;
     }
 
     .menu {
         flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 12px;
     }
 
     .actions {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     /* HERO */
     .hero-content {
-        padding: 50px 15px;
+        padding: 40px 15px;
     }
 
     .hero-content h1 {
         font-size: 26px;
+        line-height: 1.3;
     }
 
     .hero-content p {
@@ -410,6 +422,7 @@ footer {
     /* TEXTOS */
     h2 {
         font-size: 24px;
+        line-height: 1.3;
     }
 
     p {
@@ -419,26 +432,38 @@ footer {
     /* BOTÕES */
     .btn {
         width: 100%;
+        max-width: 320px; /* evita estourar */
+        margin: 10px auto;
+        display: block;
         padding: 14px;
+    }
+
+    .btn-header {
+        width: auto;
     }
 
     /* SECTIONS */
     .problema,
     .como-funciona-texto,
     .medicos,
-    .video-instalacao {
-        padding: 60px 15px;
+    .video-instalacao,
+    .cta {
+        padding: 50px 15px;
     }
 
     /* IMAGENS */
     .problema-imagem img,
     .moto-banner img {
+        width: 100%;
+        max-width: 100%;
         border-radius: 10px;
     }
 
-    /* VIDEOS */    
+    /* VIDEO */
     .video-wrapper {
+        width: 100%;
         max-width: 100%;
+        margin: 0 auto;
     }
 
 }
