@@ -21,6 +21,9 @@
 
 <style>
 
+/* ===================== */
+/* RESET + BASE */
+/* ===================== */
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -35,84 +38,85 @@ body {
     margin: auto;
     padding: 20px;
 }
+
+/* ===================== */
 /* TOP BAR */
+/* ===================== */
 .top-bar {
-  background: linear-gradient(90deg, #0A2A8F, #002BAD);
-  color: white;
-  text-align: center;
-  padding: 8px;
-  font-size: 14px;
+    background: linear-gradient(90deg, #0A2A8F, #002BAD);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
+/* ===================== */
 /* HEADER */
-.top-bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
+/* ===================== */
 .header {
-  background: white;
-  position: fixed;
-  top: 35px; /* altura da top-bar */
-  width: 100%;
-  z-index: 999;
+    background: white;
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    z-index: 999;
 }
 
 .header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
 }
 
-/* LOGO */
 .logo img {
-  height: 40px;
+    height: 40px;
 }
 
 /* MENU */
 .menu {
-  display: flex;
-  gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .menu a {
-  text-decoration: none;
-  color: #1c1c1c;
-  font-weight: 500;
-  transition: 0.3s;
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .menu a:hover {
-  color: #002BAD;
+    color: #002BAD;
 }
 
 /* ACTIONS */
 .actions {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-/* BOTÃO */
+/* ===================== */
+/* BOTÕES */
+/* ===================== */
 .btn-header {
-  background: #16c15f;
-  color: white;
-  padding: 10px 18px;
-  border-radius: 25px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
+    background: #16c15f;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
 .btn-header:hover {
-  background: #13a851;
+    background: #13a851;
 }
 
-
-/* BOTÃO */
 .btn {
     background: #00C853;
     color: white;
@@ -122,230 +126,140 @@ body {
     font-weight: 600;
     transition: 0.3s;
     cursor: pointer;
+    display: inline-block;
 }
 
 .btn:hover {
     background: #00a844;
 }
 
+/* ===================== */
 /* HERO */
+/* ===================== */
 .hero {
-  background: url('images/homem.png') no-repeat center right;
-  background-size: cover;
-  min-height: 85vh;
-  display: flex;
-
-}
-
-/* overlay para melhorar leitura */
-.hero-overlay {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(10, 22, 51, 0.85) 0%,
-    rgba(10, 22, 51, 0.6) 40%,
-    rgba(10, 22, 51, 0.2) 70%,
-    rgba(10, 22, 51, 0) 100%
-  );
-  display: flex;
-}
-
-.hero-content {
-  display: flex;
-  justify-content: flex-end;
-  align-items: stretch;
-  width: 100%;
-}
-
-
-/* TEXTO */
-.hero-text {
-  width: 100%;
-  max-width: 600px;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  text-align: right;
-}
-/* TOPO */
-.hero-top h1 {
-  color: white;
-  font-size: 42px;
-  line-height: 1.2;
-}
-
-/* BASE */
-.hero {
-  display: block; /* ISSO AQUI resolve o lado a lado */
-  width: 100%;
-}
-
-/* imagem full */
-.hero-image {
-  width: 100%;
+    width: 100%;
 }
 
 .hero-image img {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
 }
 
-/* texto abaixo */
 .hero-content {
-  width: 100%;
-  padding: 80px 20px;
-  text-align: center;
-  background: white;
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+    background: white;
 }
-/* SECTION */
 
+.hero-content h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #4A5568;
+    margin-bottom: 30px;
+}
+
+/* ===================== */
+/* COMO FUNCIONA */
+/* ===================== */
 .como-funciona-texto {
-  padding: 80px 20px;
-  background: #F6F8FC;
-  text-align: center;
+    padding: 80px 20px;
+    background: #F6F8FC;
+    text-align: center;
 }
 
 .como-funciona-texto .container {
-  max-width: 900px;
-  margin: 0 auto;
+    max-width: 900px;
 }
 
 .como-funciona-texto h2 {
-  font-size: 32px;
-  margin-bottom: 25px;
-  color: #0A1633;
+    font-size: 32px;
+    margin-bottom: 25px;
 }
 
 .como-funciona-texto p {
-  font-size: 18px;
-  color: #4A5568;
-  line-height: 1.6;
-  margin-bottom: 18px;
-}
-    
-.problema {
-  padding: 80px 20px;
-  background: white;
+    font-size: 18px;
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 18px;
 }
 
-.problema .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
+/* ===================== */
+/* PROBLEMA */
+/* ===================== */
+.problema {
+    padding: 80px 20px;
+    background: white;
+    text-align: center;
 }
 
 .problema-imagem img {
-  width: 100%;
-  max-width: 900px;
-  margin-bottom: 40px;
-  border-radius: 12px;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 40px;
+    border-radius: 12px;
 }
 
 .problema-texto h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #0A1633;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 .problema-texto p {
-  font-size: 18px;
-  color: #4A5568;
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
-.section {
-    padding: 70px 20px;
+    font-size: 18px;
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
 
-.section h2 {
-    text-align: center;
-    font-family: 'Space Grotesk';
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-.section p {
-    text-align: center;
-    max-width: 700px;
-    margin: auto;
-}
-
-    .medicos {
-  padding: 80px 20px;
-  background: #F6F8FC;
-  text-align: center;
-}
-
-.medicos .container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.medicos h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  color: #0A1633;
-}
-
-.medicos p {
-  font-size: 18px;
-  color: #4A5568;
-  line-height: 1.6;
-  margin-bottom: 18px;
-}
-
-    /* Video */
+/* ===================== */
+/* VIDEO */
+/* ===================== */
 .video-instalacao {
-  padding: 80px 20px;
-  background: white;
-  text-align: center;
-}
-
-.video-instalacao .container {
-  max-width: 900px;
-  margin: 0 auto;
+    padding: 80px 20px;
+    background: white;
+    text-align: center;
 }
 
 .video-instalacao h2 {
-  font-size: 30px;
-  margin-bottom: 15px;
-  color: #0A1633;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .video-instalacao p {
-  font-size: 18px;
-  color: #4A5568;
-  margin-bottom: 30px;
+    font-size: 18px;
+    color: #4A5568;
+    margin-bottom: 30px;
 }
 
 .video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-  overflow: hidden;
-  border-radius: 12px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
-    
+
+/* ===================== */
 /* CARDS */
+/* ===================== */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     margin-top: 40px;
-    justify-items: center; 
+    justify-items: center;
 }
 
 .card {
@@ -357,39 +271,59 @@ body {
     max-width: 250px;
     transition: 0.3s;
 }
-    
+
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0,0,0,0.1);
 }
-/* IMAGEMS */
-/* IMAGEM GRANDE */
-.big-image {
-    margin-top: 40px;
-}
 
+/* ===================== */
+/* IMAGENS */
+/* ===================== */
 .big-image img {
     width: 100%;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* IMAGEM MOTO */
 .moto-banner {
-  width: 100%;
-  background: linear-gradient(180deg, #ffffff, #f6f8fc);
-  padding: 60px 20px;
-  text-align: center;
+    width: 100%;
+    background: linear-gradient(180deg, #ffffff, #f6f8fc);
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .moto-banner img {
-  max-width: 1100px;
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
 }
 
+/* ===================== */
+/* MÉDICOS */
+/* ===================== */
+.medicos {
+    padding: 80px 20px;
+    background: #F6F8FC;
+    text-align: center;
+}
+
+.medicos h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.medicos p {
+    font-size: 18px;
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+/* ===================== */
 /* CTA */
+/* ===================== */
 .cta {
     background: #002BAD;
     color: white;
@@ -397,7 +331,9 @@ body {
     padding: 60px 20px;
 }
 
-/* WHATS FLOAT */
+/* ===================== */
+/* WHATS */
+/* ===================== */
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -407,15 +343,89 @@ body {
     padding: 16px;
     border-radius: 50%;
     font-size: 20px;
-    text-decoration: none;
 }
 
+/* ===================== */
 /* FOOTER */
+/* ===================== */
 footer {
     background: #0A1633;
     color: white;
     text-align: center;
     padding: 30px;
+}
+
+/* ===================== */
+/* 📱 MOBILE */
+/* ===================== */
+@media (max-width: 768px) {
+
+    body {
+        padding-top: 95px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    /* HEADER */
+    .header-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .actions {
+        justify-content: center;
+    }
+
+    /* HERO */
+    .hero-content {
+        padding: 50px 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+
+    /* TEXTOS */
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* BOTÕES */
+    .btn {
+        width: 100%;
+        padding: 14px;
+    }
+
+    /* SECTIONS */
+    .problema,
+    .como-funciona-texto,
+    .medicos,
+    .video-instalacao {
+        padding: 60px 15px;
+    }
+
+    /* IMAGENS */
+    .problema-imagem img,
+    .moto-banner img {
+        border-radius: 10px;
+    }
+
 }
 
 </style>
@@ -467,7 +477,10 @@ footer {
 
     <!-- IMAGEM FULL -->
     <div class="hero-image">
-        <img src="images/homem.png" alt="Monitoramento cardíaco domiciliar">
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/homem-mobile.png">
+        <img src="images/homem.png" alt="Monitoramento cardíaco">
+      </picture>
     </div>
 
     <!-- TEXTO ABAIXO -->
@@ -494,7 +507,10 @@ footer {
     <div class="container">
 
         <div class="problema-imagem">
-            <img src="images/Holter-evolucao.png" alt="Evolução do monitoramento cardíaco">
+            <picture>
+                <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
+                <img src="images/Holter-evolucao-mulher.png" alt="Evolução do monitoramento cardíaco">
+            </picture>
         </div>
 
         <div class="problema-texto">
@@ -520,7 +536,10 @@ footer {
     
 <!-- Foto moto -->
 <div class="moto-banner">
-  <img src="images/moto.png" alt="Entrega do equipamento para monitoramento cardíaco domiciliar">
+  <picture>
+    <source media="(max-width: 768px)" srcset="images/moto-mobile.png">
+    <img src="images/moto.png" alt="Entrega do equipamento para monitoramento cardíaco domiciliar">
+  </picture>
 </div>
     
 <!-- COMO FUNCIONA (SUA IMAGEM) -->
