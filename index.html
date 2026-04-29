@@ -180,10 +180,11 @@ body {
 
 /* BASE */
 .hero {
-  background: white;
+  display: block; /* ISSO AQUI resolve o lado a lado */
+  width: 100%;
 }
 
-/* imagem ocupa toda largura */
+/* imagem full */
 .hero-image {
   width: 100%;
 }
@@ -193,41 +194,13 @@ body {
   display: block;
 }
 
-/* texto igual ao "problema" */
+/* texto abaixo */
 .hero-content {
+  width: 100%;
   padding: 80px 20px;
   text-align: center;
   background: white;
 }
-
-.hero-content .container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.hero-content h1 {
-  font-size: 36px;
-  color: #0A1633;
-  margin-bottom: 20px;
-}
-
-.hero-content p {
-  font-size: 18px;
-  color: #4A5568;
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-
-.hero-content .btn {
-  display: inline-block;
-  background: #22C55E;
-  color: white;
-  padding: 14px 28px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
 /* SECTION */
 .problema {
   padding: 80px 20px;
