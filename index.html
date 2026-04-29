@@ -224,6 +224,11 @@ body {
     background: white;
     text-align: center;
 }
+.video-instalacao .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .video-instalacao h2 {
     font-size: 30px;
@@ -237,18 +242,23 @@ body {
 }
 
 .video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: 12px;
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* limita tamanho no desktop */
+  margin: 0 auto; /* centraliza */
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
 .video-wrapper iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /* ===================== */
@@ -425,6 +435,13 @@ footer {
     .moto-banner img {
         border-radius: 10px;
     }
+
+    /* VIDEOS */    
+    .video-wrapper {
+        max-width: 100%;
+    }
+
+}
 
 }
 
