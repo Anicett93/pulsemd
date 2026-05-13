@@ -13,6 +13,7 @@
 <meta property="og:image" content="https://pulsemd.com.br/images/logo.png">
 <meta property="og:url" content="https://pulsemd.com.br">
 <meta property="og:type" content="website">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <!-- Verificação google -->
 <meta name="google-site-verification" content="-9vvjs6QmyAA6rPieMhFDHRIyv1VFenfZnsavH-v8P0" />
@@ -366,6 +367,27 @@ footer {
 }
 
 /* ===================== */
+/* SOCIAL ICONS */
+/* ===================== */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.social-icons a {
+    color: #0A1633;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #16c15f;
+    transform: translateY(-2px);
+}
+
+/* ===================== */
 /* ===================== */
 /* 📱 MOBILE */
 /* ===================== */
@@ -386,6 +408,10 @@ footer {
         max-width: 100%;
     }
 
+    .social-icons a {
+        font-size: 18px;
+    }    
+    
     /* HEADER */
     .header-content {
         flex-direction: column;
@@ -498,12 +524,27 @@ footer {
 
     <!-- ACTIONS -->
     <div class="actions">
-
-      <!-- SOCIAL -->
-      <a href="#" target="_blank">📱</a>
-      <a href="#" target="_blank">💼</a>
-      <a href="#" target="_blank">📷</a>
-
+    
+      <div class="social-icons">
+    
+        <!-- WhatsApp -->
+        <a href="https://wa.me/555193662875" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+    
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/company/pulse-monitoriza%C3%A7%C3%A3o-domiciliar/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+    
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/pulse_md" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+    
+      </div>
+    
+    </div>
       <!-- CTA -->
       <a href="https://wa.me/555193662875?text=Olá,%20quero%20mais%20informações" class="btn-header">
         Agendar exame
