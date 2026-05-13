@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Holter 7 Dias Domiciliar | Monitoramento Cardíaco Prolongado - Pulse MD</title>
+<title>Holter 7 dias | Monitoramento cardíaco prolongado em tempo real - Pulse MD</title>
 
-  <meta name="description" content="Realize seu monitoramento cardíaco prolongado de 7 dias no conforto da sua casa, com análise em tempo real, suporte remoto e tecnologia avançada.">
+<meta name="description" content="Entenda como funciona o Holter 7 dias, quando o monitoramento cardíaco prolongado pode ser indicado e os benefícios da telemetria cardíaca em tempo real.">
 
-  <meta name="keywords" content="Holter 7 dias, monitoramento cardíaco domiciliar, exame cardíaco em casa, arritmia, palpitação, cardiologia">
+<meta name="keywords" content="Holter 7 dias, monitoramento cardíaco prolongado, monitorização cardíaca domiciliar, Holter em tempo real, telemetria cardíaca, arritmia cardíaca">
 
-  <link rel="canonical" href="https://pulsemd.com.br/holter-7-dias.html">
+<link rel="canonical" href="https://pulsemd.com.br/holter-7-dias.html">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -23,257 +23,281 @@
 /* RESET */
 /* ===================== */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* ===================== */
 /* BASE */
 /* ===================== */
 body {
-  font-family: 'Inter', sans-serif;
-  background: #F6F8FC;
-  color: #0A1633;
-  line-height: 1.6;
-  overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    background: #F6F8FC;
+    color: #0A1633;
+    line-height: 1.7;
+    overflow-x: hidden;
+    padding-top: 105px;
 }
 
 .container {
-  width: 100%;
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 /* ===================== */
 /* TOP BAR */
 /* ===================== */
 .top-bar {
-  background: linear-gradient(90deg, #0A2A8F, #002BAD);
-  color: white;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
+    background: linear-gradient(90deg, #0A2A8F, #002BAD);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 /* ===================== */
 /* HEADER */
 /* ===================== */
 .header {
-  background: white;
-  padding: 18px 0;
-  box-shadow: 0 2px 20px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+    background: white;
+    position: fixed;
+    top: 35px;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.05);
 }
 
 .header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
 }
 
 .logo img {
-  height: 42px;
+    height: 42px;
 }
 
 .menu {
-  display: flex;
-  gap: 25px;
+    display: flex;
+    gap: 30px;
 }
 
 .menu a {
-  text-decoration: none;
-  color: #1E293B;
-  font-weight: 500;
-  transition: 0.3s;
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .menu a:hover {
-  color: #002BAD;
+    color: #002BAD;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .btn-header {
-  background: #16C15F;
-  color: white;
-  padding: 10px 18px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
+    background: #16c15f;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 /* ===================== */
 /* HERO */
 /* ===================== */
 .hero {
-  background: white;
-}
-
-.hero img {
-  width: 100%;
-  display: block;
+    background: white;
 }
 
 .hero-content {
-  padding: 80px 20px;
-  text-align: center;
+    text-align: center;
+    padding: 70px 20px;
 }
 
 .hero-content h1 {
-  font-size: 44px;
-  margin-bottom: 20px;
+    font-size: 42px;
+    margin-bottom: 25px;
+    line-height: 1.2;
 }
 
 .hero-content p {
-  max-width: 850px;
-  margin: auto;
-  color: #475569;
-  font-size: 19px;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 35px;
-  background: #00C853;
-  color: white;
-  text-decoration: none;
-  padding: 15px 28px;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #00a844;
+    max-width: 850px;
+    margin: auto;
+    color: #4A5568;
+    font-size: 18px;
 }
 
 /* ===================== */
 /* SECTION */
 /* ===================== */
 .section {
-  padding: 90px 20px;
+    padding: 90px 20px;
 }
 
 .section-white {
-  background: white;
+    background: white;
 }
 
 .section-blue {
-  background: #F6F8FC;
+    background: #F6F8FC;
 }
 
 .section h2 {
-  text-align: center;
-  font-size: 36px;
-  margin-bottom: 25px;
+    font-size: 34px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .section p {
-  max-width: 900px;
-  margin: auto;
-  text-align: center;
-  color: #475569;
-  font-size: 18px;
+    font-size: 18px;
+    color: #4A5568;
+    margin-bottom: 18px;
+}
+
+.text-content {
+    max-width: 900px;
+    margin: auto;
 }
 
 /* ===================== */
-/* CARDS */
+/* IMAGES */
+/* ===================== */
+.image-block {
+    margin-top: 45px;
+}
+
+.image-block img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+}
+
+/* ===================== */
+/* BENEFITS */
 /* ===================== */
 .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 25px;
-  margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 50px;
 }
 
 .card {
-  background: white;
-  padding: 30px;
-  border-radius: 14px;
-  box-shadow: 0 10px 35px rgba(0,0,0,0.06);
-  text-align: center;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.05);
 }
 
 .card h3 {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .card p {
-  font-size: 16px;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 
 /* ===================== */
-/* IMAGE */
+/* FAQ */
 /* ===================== */
-.big-image {
-  margin-top: 50px;
-  text-align: center;
+.faq {
+    max-width: 900px;
+    margin: auto;
 }
 
-.big-image img {
-  width: 100%;
-  max-width: 1000px;
-  border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+.faq-item {
+    background: white;
+    padding: 25px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.faq-item h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
 }
 
 /* ===================== */
 /* CTA */
 /* ===================== */
 .cta {
-  background: linear-gradient(135deg, #002BAD, #0A2A8F);
-  color: white;
-  text-align: center;
-  padding: 90px 20px;
+    background: linear-gradient(135deg, #002BAD, #0A2A8F);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
 }
 
 .cta h2 {
-  font-size: 38px;
-  margin-bottom: 20px;
+    font-size: 38px;
+    margin-bottom: 20px;
 }
 
 .cta p {
-  max-width: 700px;
-  margin: auto;
-  color: rgba(255,255,255,0.85);
-  font-size: 18px;
+    color: rgba(255,255,255,0.85);
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #00C853;
+    color: white;
+    text-decoration: none;
+    padding: 15px 28px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 /* ===================== */
 /* FOOTER */
 /* ===================== */
 footer {
-  background: #081124;
-  color: white;
-  text-align: center;
-  padding: 35px 20px;
+    background: #081124;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
 }
 
 /* ===================== */
-/* WHATS */
+/* WHATSAPP */
 /* ===================== */
 .whatsapp {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  width: 62px;
-  height: 62px;
-  background: #25D366;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-decoration: none;
-  font-size: 28px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 /* ===================== */
@@ -281,41 +305,50 @@ footer {
 /* ===================== */
 @media (max-width: 768px) {
 
-  .header-content {
-    flex-direction: column;
-    gap: 15px;
-  }
+    body {
+        padding-top: 95px;
+    }
 
-  .menu {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
+    .header-content {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
 
-  .hero-content {
-    padding: 50px 20px;
-  }
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
 
-  .hero-content h1 {
-    font-size: 30px;
-  }
+    .hero-content {
+        padding: 50px 15px;
+    }
 
-  .hero-content p {
-    font-size: 16px;
-  }
+    .hero-content h1 {
+        font-size: 30px;
+    }
 
-  .section {
-    padding: 60px 20px;
-  }
+    .hero-content p {
+        font-size: 16px;
+    }
 
-  .section h2 {
-    font-size: 28px;
-  }
+    .section {
+        padding: 60px 15px;
+    }
 
-  .btn {
-    width: 100%;
-    max-width: 320px;
-  }
+    .section h2 {
+        font-size: 28px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 320px;
+    }
 
 }
 
@@ -326,168 +359,337 @@ footer {
 
 <!-- TOP BAR -->
 <div class="top-bar">
-  Monitoramento cardíaco prolongado com análise em tempo real
+Monitoramento cardíaco prolongado com análise em tempo real
 </div>
 
 <!-- HEADER -->
 <header class="header">
-  <div class="container header-content">
+<div class="container header-content">
 
-    <div class="logo">
-      <a href="https://pulsemd.com.br">
-        <img src="images/logo.png" alt="Pulse MD">
-      </a>
-    </div>
+<div class="logo">
+<a href="https://pulsemd.com.br">
+<img src="images/logo.png" alt="Pulse MD">
+</a>
+</div>
 
-    <nav class="menu">
-      <a href="https://pulsemd.com.br">Home</a>
-      <a href="https://pulsemd.com.br/exames.html">Exames</a>
-      <a href="https://pulsemd.com.br/publicacoes.html">Publicações</a>
-    </nav>
+<nav class="menu">
+<a href="https://pulsemd.com.br">Home</a>
+<a href="https://pulsemd.com.br/exames.html">Exames</a>
+<a href="https://pulsemd.com.br/publicacoes.html">Publicações</a>
+</nav>
 
-    <a href="https://wa.me/555193662875?text=Olá,%20quero%20informações%20sobre%20o%20Holter%207%20dias" class="btn-header">
-      Falar no WhatsApp
-    </a>
+<div class="actions">
+<a href="https://wa.me/555193662875?text=Olá,%20quero%20informações%20sobre%20o%20Holter%207%20dias" class="btn-header">
+Falar com especialista
+</a>
+</div>
 
-  </div>
+</div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
 
-  <picture>
-    <source media="(max-width: 768px)" srcset="images/homem-mobile.png">
-    <img src="images/homem.png" alt="Holter 7 dias domiciliar">
-  </picture>
+<picture>
+<source media="(max-width: 768px)" srcset="images/hero-holter7-mobile.png">
+<img src="images/hero-holter7.png" alt="Holter 7 dias">
+</picture>
 
-  <div class="hero-content container">
+<div class="hero-content container">
 
-    <h1>Holter 7 dias com monitoramento em tempo real</h1>
+<h1>Holter 7 dias: monitoramento cardíaco prolongado com análise em tempo real</h1>
 
-    <p>
-      Realize seu exame cardíaco no conforto da sua casa com acompanhamento remoto, tecnologia em nuvem e maior possibilidade de identificar alterações intermitentes.
-    </p>
+<p>
+O monitoramento cardíaco prolongado aumenta significativamente a possibilidade de registrar alterações intermitentes, especialmente em pacientes com sintomas esporádicos ou exames prévios inconclusivos.
+</p>
 
-    <a href="https://wa.me/555193662875?text=Olá,%20quero%20fazer%20um%20Holter%207%20dias" class="btn">
-      Solicitar orçamento
-    </a>
-
-  </div>
+</div>
 
 </section>
 
-<!-- PROBLEMA -->
+<!-- O QUE É -->
 <section class="section section-white">
 
-  <div class="container">
+<div class="container text-content">
 
-    <h2>Por que um monitoramento prolongado pode ser importante?</h2>
+<h2>O que é o Holter 7 dias?</h2>
 
-    <p>
-      Sintomas cardíacos podem ocorrer de forma esporádica e muitas vezes não aparecem em exames rápidos ou em um único momento do dia.
-      O Holter 7 dias aumenta significativamente a chance de registrar eventos importantes para o diagnóstico.
-    </p>
+<p>
+O Holter 7 dias é uma forma de monitoramento cardíaco contínuo realizada ao longo de uma semana, permitindo registrar alterações do ritmo cardíaco que podem não aparecer em exames convencionais de curta duração.
+</p>
 
-    <div class="big-image">
-      <picture>
-        <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
-        <img src="images/Holter-evolucao-mulher.png" alt="Comparação monitoramento cardíaco">
-      </picture>
-    </div>
+<p>
+Diferente do eletrocardiograma tradicional ou do Holter 24 horas, o monitoramento prolongado amplia a janela de observação e pode aumentar a sensibilidade diagnóstica em casos de sintomas intermitentes.
+</p>
 
-  </div>
+<div class="image-block">
 
+<picture>
+<source media="(max-width: 768px)" srcset="images/oque-e-mobile.png">
+<img src="images/oque-e.png" alt="Monitoramento cardíaco prolongado">
+</picture>
+
+</div>
+
+</div>
 </section>
 
-<!-- BENEFÍCIOS -->
+<!-- INDICAÇÃO -->
 <section class="section section-blue">
 
-  <div class="container">
+<div class="container text-content">
 
-    <h2>Benefícios do Holter 7 dias domiciliar</h2>
+<h2>Quando o monitoramento prolongado pode ser indicado?</h2>
 
-    <div class="cards">
+<p>
+O exame pode ser especialmente útil em pacientes com palpitações, tontura, síncope, pré-síncope, suspeita de arritmias ou sintomas de ocorrência esporádica.
+</p>
 
-      <div class="card">
-        <h3>Monitoramento contínuo</h3>
-        <p>Maior possibilidade de registrar alterações cardíacas intermitentes.</p>
-      </div>
+<p>
+Em muitos casos, alterações importantes simplesmente não acontecem durante as primeiras 24 horas de monitoramento.
+</p>
 
-      <div class="card">
-        <h3>Tempo real</h3>
-        <p>Dados enviados continuamente para análise remota e acompanhamento especializado.</p>
-      </div>
+<div class="image-block">
 
-      <div class="card">
-        <h3>Mais conforto</h3>
-        <p>Realize o exame em casa e mantenha sua rotina normalmente.</p>
-      </div>
+<picture>
+<source media="(max-width: 768px)" srcset="images/indicacoes-mobile.png">
+<img src="images/indicacoes.png" alt="Indicações do Holter 7 dias">
+</picture>
 
-      <div class="card">
-        <h3>Suporte especializado</h3>
-        <p>Acompanhamento remoto durante todo o período do exame.</p>
-      </div>
+</div>
 
-    </div>
-
-  </div>
-
+</div>
 </section>
 
-<!-- COMO FUNCIONA -->
+<!-- DIRETRIZES -->
 <section class="section section-white">
 
-  <div class="container">
+<div class="container text-content">
 
-    <h2>Como funciona</h2>
+<h2>Por que aumentar o tempo de monitoramento?</h2>
 
-    <p>
-      Após o contato pelo WhatsApp, nossa equipe realiza o atendimento inicial e organiza o envio do dispositivo para sua residência.
-      O equipamento utiliza tecnologia Bluetooth e integração em nuvem para transmitir os dados do exame em tempo real.
-    </p>
+<p>
+Sociedades médicas e diretrizes internacionais reconhecem que a ampliação do período de monitoramento pode aumentar significativamente a chance de identificação de eventos cardíacos intermitentes.
+</p>
 
-    <p style="margin-top:20px;">
-      Um especialista acompanha todo o processo e auxilia na instalação, garantindo qualidade dos dados e suporte durante o monitoramento.
-    </p>
+<p>
+Quanto mais raro ou esporádico for o sintoma, maior tende a ser o benefício clínico de um monitoramento prolongado.
+</p>
 
-    <div class="big-image">
-      <picture>
-        <source media="(max-width: 768px)" srcset="images/moto-mobile.png">
-        <img src="images/moto.png" alt="Entrega domiciliar do equipamento">
-      </picture>
-    </div>
+</div>
+</section>
 
-  </div>
+<!-- COMPARAÇÃO -->
+<section class="section section-blue">
 
+<div class="container text-content">
+
+<h2>Limitações do Holter tradicional</h2>
+
+<p>
+O Holter convencional continua sendo uma ferramenta importante da cardiologia, porém sua capacidade diagnóstica pode ser limitada em pacientes com sintomas pouco frequentes.
+</p>
+
+<p>
+Além do tempo reduzido de monitoramento, muitos exames tradicionais dependem apenas da análise posterior dos dados, sem acompanhamento contínuo durante a realização.
+</p>
+
+<div class="image-block">
+
+<picture>
+<source media="(max-width: 768px)" srcset="images/comparacao-mobile.png">
+<img src="images/comparacao.png" alt="Comparação entre Holter tradicional e monitoramento moderno">
+</picture>
+
+</div>
+
+</div>
+</section>
+
+<!-- TELEMETRIA -->
+<section class="section section-white">
+
+<div class="container text-content">
+
+<h2>Monitorização cardíaca domiciliar em tempo real</h2>
+
+<p>
+Na Pulse MD, o monitoramento não funciona apenas como um dispositivo de gravação passiva.
+</p>
+
+<p>
+Os dados são enviados continuamente através da nuvem, permitindo avaliação remota por um especialista durante todo o exame.
+</p>
+
+<p>
+Isso possibilita acompanhar a qualidade dos sinais, orientar o paciente quando necessário e aumentar o aproveitamento diagnóstico do exame.
+</p>
+
+<div class="image-block">
+
+<picture>
+<source media="(max-width: 768px)" srcset="images/telemetria-mobile.png">
+<img src="images/telemetria.png" alt="Telemetria cardíaca em tempo real">
+</picture>
+
+</div>
+
+</div>
+</section>
+
+<!-- HICARDI -->
+<section class="section section-blue">
+
+<div class="container text-content">
+
+<h2>Tecnologia Hicardi: conforto e conectividade</h2>
+
+<p>
+O dispositivo Hicardi foi desenvolvido para tornar o monitoramento mais confortável e menos invasivo para o paciente.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Bluetooth integrado</h3>
+<p>Conexão direta com o celular durante o exame.</p>
+</div>
+
+<div class="card">
+<h3>Bateria recarregável</h3>
+<p>Sem necessidade de pilhas ou trocas frequentes.</p>
+</div>
+
+<div class="card">
+<h3>Dispositivo discreto</h3>
+<p>Leve, confortável e pensado para uso contínuo.</p>
+</div>
+
+<div class="card">
+<h3>Monitoramento flexível</h3>
+<p>Possibilidade de estender ou encurtar o período do exame conforme avaliação médica.</p>
+</div>
+
+</div>
+
+<div class="image-block">
+
+<picture>
+<source media="(max-width: 768px)" srcset="images/hicardi-mobile.png">
+<img src="images/hicardi.png" alt="Tecnologia Hicardi">
+</picture>
+
+</div>
+
+</div>
+</section>
+
+<!-- DIAGNÓSTICO -->
+<section class="section section-white">
+
+<div class="container text-content">
+
+<h2>Diagnóstico mais rápido pode antecipar decisões clínicas</h2>
+
+<p>
+Quando o paciente apresenta um sintoma durante o período de monitoramento, o traçado pode ser analisado nas próximas horas.
+</p>
+
+<p>
+Em alguns casos, alterações relevantes podem ser identificadas antes mesmo do término do exame, permitindo antecipar condutas clínicas e reduzir o tempo até o tratamento adequado.
+</p>
+
+<p>
+Isso evita a necessidade de aguardar semanas entre o término do exame, retorno presencial e liberação do laudo.
+</p>
+
+<div class="image-block">
+
+<picture>
+<source media="(max-width: 768px)" srcset="images/diagnostico-mobile.png">
+<img src="images/diagnostico.png" alt="Diagnóstico cardíaco rápido">
+</picture>
+
+</div>
+
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-blue">
+
+<div class="container">
+
+<h2>Perguntas frequentes sobre Holter 7 dias</h2>
+
+<div class="faq">
+
+<div class="faq-item">
+<h3>Holter 7 dias dói?</h3>
+<p>Não. O exame é não invasivo e o dispositivo foi desenvolvido para ser confortável durante o uso prolongado.</p>
+</div>
+
+<div class="faq-item">
+<h3>Posso trabalhar durante o exame?</h3>
+<p>Na maioria dos casos, sim. O objetivo do monitoramento é justamente acompanhar o paciente durante sua rotina habitual.</p>
+</div>
+
+<div class="faq-item">
+<h3>O exame funciona sem internet?</h3>
+<p>Sim. O dispositivo continua registrando os dados mesmo em momentos sem conexão, sincronizando as informações posteriormente.</p>
+</div>
+
+<div class="faq-item">
+<h3>Qual diferença entre Holter 24h e 7 dias?</h3>
+<p>O Holter 7 dias amplia significativamente o período de monitoramento, aumentando a possibilidade de registrar eventos cardíacos intermitentes.</p>
+</div>
+
+<div class="faq-item">
+<h3>O médico acompanha o exame em tempo real?</h3>
+<p>Os dados podem ser avaliados remotamente durante o exame, permitindo análise mais rápida de eventos importantes.</p>
+</div>
+
+<div class="faq-item">
+<h3>Posso tomar banho?</h3>
+<p>As orientações variam conforme o modelo utilizado e serão explicadas pela equipe responsável durante a instalação.</p>
+</div>
+
+<div class="faq-item">
+<h3>Quanto tempo demora o laudo?</h3>
+<p>Após a finalização do exame, o laudo médico é emitido em até 7 dias.</p>
+</div>
+
+</div>
+
+</div>
 </section>
 
 <!-- CTA -->
 <section class="cta">
 
-  <div class="container">
+<div class="container">
 
-    <h2>Solicite seu Holter 7 dias</h2>
+<h2>Fale com nossa equipe</h2>
 
-    <p>
-      Atendimento domiciliar no Rio Grande do Sul com suporte especializado e monitoramento contínuo.
-    </p>
+<p>
+Se você deseja entender melhor como funciona o monitoramento cardíaco prolongado ou verificar se esse exame pode ser indicado para seu caso, entre em contato com nossa equipe.
+</p>
 
-    <a href="https://wa.me/555193662875?text=Olá,%20quero%20solicitar%20um%20Holter%207%20dias" class="btn">
-      Falar com especialista
-    </a>
+<a href="https://wa.me/555193662875?text=Olá,%20quero%20mais%20informações%20sobre%20o%20Holter%207%20dias" class="btn">
+Falar com especialista
+</a>
 
-  </div>
-
+</div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  © 2026 Pulse MD • Monitoramento Cardíaco Domiciliar
+© 2026 Pulse MD • Monitoramento Cardíaco Domiciliar
 </footer>
 
 <!-- WHATS -->
 <a class="whatsapp" href="https://wa.me/555193662875?text=Olá,%20quero%20mais%20informações">
-  ☎
+☎
 </a>
 
 </body>
