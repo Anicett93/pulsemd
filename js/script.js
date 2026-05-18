@@ -1,43 +1,72 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-  // HEADER
+  /* ===================== */
+  /* HEADER */
+  /* ===================== */
+
   fetch("components/header.html")
     .then(response => response.text())
     .then(data => {
-      document.getElementById("header").innerHTML = data;
+
+      const header = document.getElementById("header");
+
+      if (header) {
+        header.innerHTML = data;
+      }
+
     });
 
-  // FOOTER
+
+  /* ===================== */
+  /* FOOTER */
+  /* ===================== */
+
   fetch("components/footer.html")
     .then(response => response.text())
     .then(data => {
-      document.getElementById("footer").innerHTML = data;
-    });
-  
-  // FAQ ACCORDION
-    const faqItems = document.querySelectorAll(".faq-item");
 
-    faqItems.forEach(item => {
+      const footer = document.getElementById("footer");
 
-        const question = item.querySelector(".faq-question");
-
-        question.addEventListener("click", () => {
-
-            item.classList.toggle("active");
-               });
+      if (footer) {
+        footer.innerHTML = data;
+      }
 
     });
-  
-    // LOAD FAQ
-      fetch("components/faq.html")
-        .then(response => response.text())
-        .then(data => {
-            const faq = document.getElementById("faq");
-      
-            if (faq) {
-                faq.innerHTML = data;
-            }
-          });
+
+
+  /* ===================== */
+  /* FAQ COMPONENT */
+  /* ===================== */
+
+  fetch("components/faq.html")
+    .then(response => response.text())
+    .then(data => {
+
+      const faq = document.getElementById("faq");
+
+      if (faq) {
+        faq.innerHTML = data;
+      }
+
+    });
+
+
+  /* ===================== */
+  /* FAQ ACCORDION */
+  /* ===================== */
+
+  document.addEventListener("click", function (e) {
+
+    const question = e.target.closest(".faq-question");
+
+    if (!question) return;
+
+    const item = question.closest(".faq-item");
+
+    if (item) {
+      item.classList.toggle("active");
+    }
+
+  });
 
 });
-
