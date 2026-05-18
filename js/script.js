@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   
   // FAQ ACCORDION
-
     const faqItems = document.querySelectorAll(".faq-item");
 
     faqItems.forEach(item => {
@@ -25,10 +24,20 @@ document.addEventListener("DOMContentLoaded", function () {
         question.addEventListener("click", () => {
 
             item.classList.toggle("active");
-
-        });
+               });
 
     });
+  
+    // LOAD FAQ
+      fetch("components/faq.html")
+        .then(response => response.text())
+        .then(data => {
+            const faq = document.getElementById("faq");
+      
+            if (faq) {
+                faq.innerHTML = data;
+            }
+          });
 
 });
 
