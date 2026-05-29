@@ -390,6 +390,85 @@ img {
 }
 
 /* ===================== */
+/* FAQ */
+/* ===================== */
+
+.faq-section {
+    padding: 80px 20px;
+    background: #F6F8FC;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 50px;
+    color: #0A1633;
+}
+
+.faq-item {
+    background: white;
+    border-radius: 14px;
+    margin-bottom: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 24px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0A1633;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.faq-question:hover {
+    background: #f8fafc;
+}
+
+.faq-icon {
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s ease;
+    padding: 0 24px;
+}
+
+.faq-answer p {
+    padding-bottom: 24px;
+    color: #4A5568;
+    line-height: 1.7;
+}
+
+/* ACTIVE */
+
+.faq-item.active .faq-answer {
+    max-height: 300px;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+/* ===================== */
 /* WHATSAPP */
 /* ===================== */
 .whatsapp {
@@ -420,13 +499,20 @@ footer {
     padding: 35px 20px;
 }
 
+
 /* ===================== */
 /* MOBILE */
 /* ===================== */
 @media (max-width: 768px) {
 
     body {
-        padding-top: 95px;
+        padding-top: 155px;
+    }
+    
+    .top-bar {
+    font-size: 13px;
+    line-height: 1.4;
+    padding: 10px 15px;
     }
 
     .container {
@@ -518,92 +604,8 @@ footer {
         max-width: 100%;
     }
 
-}
-
-/* ===================== */
-/* FAQ */
-/* ===================== */
-
-.faq-section {
-    padding: 80px 20px;
-    background: #F6F8FC;
-}
-
-.faq-container {
-    max-width: 900px;
-    margin: auto;
-}
-
-.faq-title {
-    text-align: center;
-    font-size: 34px;
-    margin-bottom: 50px;
-    color: #0A1633;
-}
-
-.faq-item {
-    background: white;
-    border-radius: 14px;
-    margin-bottom: 18px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
-}
-
-.faq-question {
-    width: 100%;
-    background: none;
-    border: none;
-    padding: 24px;
-    text-align: left;
-    font-size: 18px;
-    font-weight: 600;
-    color: #0A1633;
-    cursor: pointer;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    transition: 0.3s;
-}
-
-.faq-question:hover {
-    background: #f8fafc;
-}
-
-.faq-icon {
-    font-size: 24px;
-    transition: 0.3s;
-}
-
-.faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.35s ease;
-    padding: 0 24px;
-}
-
-.faq-answer p {
-    padding-bottom: 24px;
-    color: #4A5568;
-    line-height: 1.7;
-}
-
-/* ACTIVE */
-
-.faq-item.active .faq-answer {
-    max-height: 300px;
-}
-
-.faq-item.active .faq-icon {
-    transform: rotate(45deg);
-}
-
-/* MOBILE */
-
-@media (max-width: 768px) {
-
-    .faq-title {
+        /* FAQ */
+        .faq-title {
         font-size: 28px;
     }
 
@@ -611,5 +613,16 @@ footer {
         font-size: 16px;
         padding: 20px;
     }
+    
+    .indicacoes .card h3 {
+        color: white;
+    }
+
+    .indicacoes .card p {
+        color: rgba(255,255,255,0.85);
+    }
+
 
 }
+
+
