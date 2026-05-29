@@ -347,6 +347,35 @@ img {
 }
 
 /* ===================== */
+/* INDICAÇÕES */
+/* ===================== */
+
+.indicacoes {
+    background: #002BAD;
+    color: white;
+}
+
+.indicacoes h2 {
+    color: white;
+}
+
+.indicacoes .card {
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+}
+
+.indicacoes .card p {
+    color: white;
+    font-weight: 500;
+}
+
+.indicacoes .card img {
+    height: 40px;
+    margin: 0 auto 10px auto;
+}
+
+/* ===================== */
 /* FAQ */
 /* ===================== */
 .faq {
@@ -614,15 +643,6 @@ footer {
         padding: 20px;
     }
     
-    .indicacoes .card h3 {
-        color: white;
-    }
-
-    .indicacoes .card p {
-        color: rgba(255,255,255,0.85);
-    }
-
-
 }
 
 
