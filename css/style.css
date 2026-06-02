@@ -57,7 +57,7 @@ img {
 .header {
     background: white;
     position: fixed;
-    top: 35px;
+    top: 55px;
     width: 100%;
     z-index: 999;
     box-shadow: 0 2px 20px rgba(0,0,0,0.05);
@@ -535,7 +535,7 @@ footer {
 @media (max-width: 768px) {
 
     body {
-        padding-top: 155px;
+        padding-top: 195px;
     }
     
     .top-bar {
@@ -554,7 +554,7 @@ footer {
     .header-content {
         flex-direction: column;
         align-items: center;
-        gap: 12px;
+        gap: 15px;
         text-align: center;
     }
 
