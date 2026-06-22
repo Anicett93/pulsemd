@@ -404,18 +404,34 @@ img {
     color: white;
     text-align: center;
     padding: 90px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Garante centralização horizontal dos itens */
+}
+
+.cta img {
+    display: block;
+    margin: 0 auto 20px auto; /* Centraliza o logo */
 }
 
 .cta h2 {
     font-size: 38px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .cta p {
     color: rgba(255,255,255,0.88);
     max-width: 700px;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
+    width: 100%;
+}
+
+.cta .or-text {
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 /* ===================== */
@@ -665,7 +681,7 @@ footer {
 /* ===================== */
 @media (max-width: 768px) {
     body {
-        padding-top: 80px; /* Ajusta o padding para mobile */
+        padding-top: 70px; /* Ajusta o padding para mobile - subindo um pouco mais */
     }
 
     .hero-content h1 {
