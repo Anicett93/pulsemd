@@ -646,3 +646,57 @@ footer {
 }
 
 
+
+/* ===================== */
+/* ICON STYLES */
+/* ===================== */
+.cards .card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #002BAD; /* Cor padrão para os ícones */
+}
+
+.indicacoes .card i {
+    color: white; /* Cor para os ícones na seção de indicações */
+}
+
+/* ===================== */
+/* MOBILE ADJUSTMENTS */
+/* ===================== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px; /* Ajusta o padding para mobile */
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .section h2,
+    .como-funciona-texto h2,
+    .problema-texto h2,
+    .medicos h2,
+    .video-instalacao h2 {
+        font-size: 28px;
+    }
+
+    .section p,
+    .como-funciona-texto p,
+    .problema-texto p,
+    .medicos p,
+    .video-instalacao p {
+        font-size: 16px;
+    }
+
+    .cta h2 {
+        font-size: 30px;
+    }
+
+    .header {
+        top: 0; /* Ajusta o header para o topo em mobile */
+    }
+
+    .top-bar {
+        display: none; /* Opcional: esconder a top-bar em mobile se o header já for grande */
+    }
+}
