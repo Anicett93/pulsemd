@@ -681,7 +681,7 @@ footer {
 /* ===================== */
 @media (max-width: 768px) {
     body {
-        padding-top: 70px; /* Ajusta o padding para mobile - subindo um pouco mais */
+        padding-top: 130px; /* Aumentado para evitar corte do conteúdo pelo header fixo */
     }
 
     .hero-content h1 {
