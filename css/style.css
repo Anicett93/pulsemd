@@ -681,7 +681,7 @@ footer {
 /* ===================== */
 @media (max-width: 768px) {
     body {
-        padding-top: 130px; /* Aumentado para evitar corte do conteúdo pelo header fixo */
+        padding-top: 160px; /* Aumentado ainda mais para garantir que o conteúdo não seja cortado */
     }
 
     .hero-content h1 {
@@ -715,4 +715,62 @@ footer {
     .top-bar {
         display: none; /* Opcional: esconder a top-bar em mobile se o header já for grande */
     }
+}
+
+/* ===================== */
+/* PUBLICATION CARDS (YouTube Style) */
+/* ===================== */
+.pub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.pub-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.pub-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.pub-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+}
+
+.pub-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pub-content {
+    padding: 15px;
+}
+
+.pub-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.4;
+    color: #0A1633;
+}
+
+.pub-desc {
+    font-size: 14px;
+    color: #4A5568;
+    line-height: 1.5;
 }
