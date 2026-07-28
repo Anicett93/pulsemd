@@ -64,6 +64,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   /* ===================== */
+  /* MENU HAMBÚRGUER (mobile) */
+  /* ===================== */
+  document.addEventListener("click", function (e) {
+    const toggle = e.target.closest(".nav-toggle");
+    if (toggle) {
+      const hc = toggle.closest(".header-content");
+      const open = hc.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+      adjustTopPadding();
+      return;
+    }
+    const menuLink = e.target.closest(".menu a");
+    if (menuLink) {
+      const hc = menuLink.closest(".header-content");
+      if (hc && hc.classList.contains("open")) {
+        hc.classList.remove("open");
+        const t = hc.querySelector(".nav-toggle");
+        if (t) { t.setAttribute("aria-expanded", "false"); t.setAttribute("aria-label", "Abrir menu"); }
+        adjustTopPadding();
+      }
+    }
+  });
+
+  /* ===================== */
   /* FAQ ACORDEÃO */
   /* ===================== */
   document.addEventListener("click", function (e) {

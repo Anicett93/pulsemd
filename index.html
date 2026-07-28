@@ -3,21 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Polissonografia e Monitorização Cardíaca Domiciliar | Pulse MD</title>
+<title>Polissonografia e Monitorização Cardíaca Domiciliar | PulseMD</title>
 <meta name="description" content="Monitorização cardíaca prolongada e polissonografia domiciliar no conforto da sua casa. Tecnologia avançada, logística própria e acompanhamento especializado.">
 <meta name="keywords" content="monitoramento cardíaco, holter 7 dias, exame cardíaco domiciliar, monitoramento cardíaco RS, exame do coração em casa, cardiologia RS">
 <meta name="geo.region" content="BR-RS">
 <meta name="geo.placename" content="Rio Grande do Sul">
-<meta property="og:title" content="Polissonografia e Monitorização Cardíaca Domiciliar | Pulse MD">
+<meta property="og:title" content="Polissonografia e Monitorização Cardíaca Domiciliar | PulseMD">
 <meta property="og:description" content="Exames cardíacos contínuos no conforto da sua casa. Mais precisão no diagnóstico.">
-<meta property="og:image" content="https://pulsemd.com.br/images/logo.png">
+<meta property="og:image" content="https://pulsemd.com.br/images/og-pulsemd.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:url" content="https://pulsemd.com.br">
 <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Polissonografia e Monitorização Cardíaca Domiciliar | PulseMD">
+<meta name="twitter:description" content="Exames cardíacos contínuos no conforto da sua casa. Mais precisão no diagnóstico.">
+<meta name="twitter:image" content="https://pulsemd.com.br/images/og-pulsemd.jpg">
+<link rel="canonical" href="https://pulsemd.com.br/">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "MedicalClinic",
-      "name": "Pulse MD",
+      "name": "PulseMD",
       "url": "https://pulsemd.com.br",
       "logo": "https://pulsemd.com.br/images/logo.png",
       "description": "Monitorização cardíaca prolongada e polissonografia domiciliar no conforto da sua casa. Tecnologia avançada, logística própria e acompanhamento especializado.",
@@ -31,9 +38,15 @@
         "telephone": "+55-51-99429-3793",
         "contactType": "customer service"
       },
-      "medicalSpecialty": "Cardiology",
+      "medicalSpecialty": ["Cardiology", "Sleep Medicine"],
+      "areaServed": [
+        { "@type": "State", "name": "Rio Grande do Sul" },
+        { "@type": "State", "name": "Santa Catarina" },
+        { "@type": "State", "name": "Paraná" }
+      ],
       "sameAs": [
-        "https://www.instagram.com/pulsemd.br/"
+        "https://www.instagram.com/pulse_md/",
+        "https://www.linkedin.com/company/pulse-monitoriza%C3%A7%C3%A3o-domiciliar/"
       ]
     }
     </script>
@@ -41,15 +54,43 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Polissonografia e Monitorização Cardíaca Domiciliar | Pulse MD",
+      "name": "Polissonografia e Monitorização Cardíaca Domiciliar | PulseMD",
       "url": "https://pulsemd.com.br",
       "description": "Monitorização cardíaca prolongada e polissonografia domiciliar no conforto da sua casa. Tecnologia avançada, logística própria e acompanhamento especializado.",
       "inLanguage": "pt-BR",
       "isPartOf": {
         "@type": "WebSite",
-        "name": "Pulse MD",
+        "name": "PulseMD",
         "url": "https://pulsemd.com.br"
       }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O Holter pode não detectar minha arritmia?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Sim, arritmias intermitentes podem não ocorrer em 24h. A monitorização prolongada aumenta essa chance." }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre Holter 24h e monitorização prolongada?",
+          "acceptedAnswer": { "@type": "Answer", "text": "O tempo de registro e a tecnologia de telemetria em tempo real, que permite acompanhamento durante o exame." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quem precisa fazer polissonografia domiciliar?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pacientes com ronco, sonolência excessiva ou suspeita de apneia obstrutiva do sono." }
+        },
+        {
+          "@type": "Question",
+          "name": "Quanto tempo demora o laudo?",
+          "acceptedAnswer": { "@type": "Answer", "text": "O laudo médico especializado é entregue digitalmente em até 7 dias úteis." }
+        }
+      ]
     }
     </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -68,7 +109,7 @@
 </div>
 
 <!-- HERO VIVO -->
-<section class="hero">
+<section class="hero" id="conteudo">
   <div class="ecg-band" aria-hidden="true">
     <div class="ecg-track">
       <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
@@ -89,13 +130,13 @@
   <h2 class="reveal">Nossas especialidades</h2>
   <div class="cards reveal-group">
     <div class="card">
-      <img src="images/homem.png" alt="Monitorização cardíaca">
+      <img src="images/homem.png" alt="Paciente usando monitor cardíaco domiciliar da PulseMD">
       <h3>Monitorização Cardíaca Domiciliar</h3>
       <p>Monitorização cardíaca prolongada com telemetria em tempo real, acompanhamento especializado e maior possibilidade de identificação de arritmias intermitentes.</p>
       <a class="btn btn-ghost" href="holter-7-dias.html" style="margin-top:16px;">Saiba mais</a>
     </div>
     <div class="card">
-      <img src="images/especialidade-sono.png" alt="Polissonografia domiciliar">
+      <img src="images/especialidade-sono.png" alt="Dispositivo de polissonografia domiciliar para exame do sono">
       <h3>Monitorização do Sono</h3>
       <p>Polissonografia domiciliar com tecnologia ResMed para investigação de apneia do sono, ronco e distúrbios respiratórios do sono.</p>
       <a class="btn btn-ghost" href="polissonografia-domiciliar.html" style="margin-top:16px;">Saiba mais</a>
@@ -109,14 +150,14 @@
     <div class="problema-imagem reveal">
       <picture>
         <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
-        <img src="images/Holter-evolucao-mulher.png" alt="Evolução do monitoramento cardíaco">
+        <img src="images/Holter-evolucao-mulher.png" alt="Mulher em casa durante monitorização cardíaca prolongada">
       </picture>
     </div>
     <div class="problema-texto reveal">
       <h2>A evolução da monitorização permite exames mais completos sem sair de casa.</h2>
       <p>Alterações cardíacas e distúrbios do sono podem ocorrer de forma intermitente, o que significa que exames rápidos ou realizados em um único momento podem não registrar essas variações importantes.</p>
       <p>A monitorização prolongada aumenta significativamente a chance de identificação dessas alterações. Ao realizar o exame no ambiente habitual do paciente, geramos informações muito mais representativas da rotina real, proporcionando um diagnóstico mais preciso e humano.</p>
-      <p>Com a <strong>Pulse MD</strong>, você conta com tecnologia avançada e acompanhamento especializado durante todo o processo, garantindo dados completos sem a necessidade de deslocamentos desnecessários.</p>
+      <p>Com a <strong>PulseMD</strong>, você conta com tecnologia avançada e acompanhamento especializado durante todo o processo, garantindo dados completos sem a necessidade de deslocamentos desnecessários.</p>
     </div>
   </div>
 </section>
@@ -133,7 +174,7 @@
 <section class="como-funciona-texto">
   <div class="container">
     <h2 class="reveal">Do contato ao laudo: simples, rápido e acompanhado por especialistas</h2>
-    <p class="reveal">A Pulse MD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.</p>
+    <p class="reveal">A PulseMD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.</p>
     <p class="reveal">Tudo começa com um contato rápido pelo WhatsApp. Nossa equipe realiza o atendimento inicial e envia um orçamento de acordo com a sua cidade e região em toda a Região Sul.</p>
     <p class="reveal">Após a confirmação, você recebe o equipamento indicado para o exame solicitado, acompanhado de suporte especializado e instruções completas para uma instalação simples.</p>
     <p class="reveal">Durante a monitorização cardíaca, o dispositivo envia informações continuamente para uma plataforma segura, permitindo acompanhamento especializado durante todo o período do exame.</p>
@@ -219,7 +260,7 @@
       <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
     </div>
   </div>
-  <img src="images/logo-branco.png" alt="Pulse MD">
+  <img src="images/logo-branco.png" alt="PulseMD">
   <h2 class="reveal">Estamos prontos para orientar você.</h2>
   <p class="reveal">Nossa equipe ajuda a identificar qual exame pode ser mais adequado para sua situação clínica.</p>
   <div class="hero-cta">
@@ -232,7 +273,7 @@
 <section class="medicos">
   <div class="container">
     <h2 class="reveal">Mais precisão diagnóstica para sua prática clínica</h2>
-    <p class="reveal">A Pulse MD atua em parceria com médicos e clínicas oferecendo monitorização domiciliar, logística especializada, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.</p>
+    <p class="reveal">A PulseMD atua em parceria com médicos e clínicas oferecendo monitorização domiciliar, logística especializada, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.</p>
     <p class="reveal">Nossa estrutura foi desenhada para integrar tecnologia e suporte clínico, garantindo que o médico solicitante tenha em mãos dados de alta qualidade e representatividade para a melhor tomada de decisão.</p>
     <a class="btn reveal" href="https://wa.me/555194293793?text=Olá,%20sou%20médico(a)%20e%20quero%20entender%20como%20oferecer%20o%20monitoramento%20para%20meus%20pacientes">Falar com especialista</a>
   </div>
@@ -240,7 +281,7 @@
 
 <!-- POR QUE CONFIAR -->
 <section class="section container">
-  <h2 class="reveal" style="text-align:center;">Por que confiar na Pulse MD?</h2>
+  <h2 class="reveal" style="text-align:center;">Por que confiar na PulseMD?</h2>
   <div class="cards reveal-group">
     <div class="card"><i class="fa-solid fa-check-double" aria-hidden="true"></i><h3>Tecnologia validada</h3></div>
     <div class="card"><i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i><h3>Monitorização em tempo real</h3></div>
@@ -273,11 +314,23 @@
 <!-- FAQ -->
 <section class="section container">
   <h2 class="reveal" style="text-align:center; margin-bottom:40px;">Perguntas Frequentes</h2>
-  <div class="faq-article reveal">
-    <div><h3>O Holter pode não detectar minha arritmia?</h3><p>Sim, arritmias intermitentes podem não ocorrer em 24h. A monitorização prolongada aumenta essa chance.</p></div>
-    <div><h3>Qual a diferença entre Holter 24h e monitorização prolongada?</h3><p>O tempo de registro e a tecnologia de telemetria em tempo real, que permite acompanhamento durante o exame.</p></div>
-    <div><h3>Quem precisa fazer polissonografia domiciliar?</h3><p>Pacientes com ronco, sonolência excessiva ou suspeita de apneia obstrutiva do sono.</p></div>
-    <div><h3>Quanto tempo demora o laudo?</h3><p>O laudo médico especializado é entregue digitalmente em até 7 dias úteis.</p></div>
+  <div class="faq-container reveal">
+    <div class="faq-item">
+      <button class="faq-question">O Holter pode não detectar minha arritmia?<span class="faq-icon" aria-hidden="true">+</span></button>
+      <div class="faq-answer"><p>Sim, arritmias intermitentes podem não ocorrer em 24h. A monitorização prolongada aumenta essa chance.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Qual a diferença entre Holter 24h e monitorização prolongada?<span class="faq-icon" aria-hidden="true">+</span></button>
+      <div class="faq-answer"><p>O tempo de registro e a tecnologia de telemetria em tempo real, que permite acompanhamento durante o exame.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Quem precisa fazer polissonografia domiciliar?<span class="faq-icon" aria-hidden="true">+</span></button>
+      <div class="faq-answer"><p>Pacientes com ronco, sonolência excessiva ou suspeita de apneia obstrutiva do sono.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Quanto tempo demora o laudo?<span class="faq-icon" aria-hidden="true">+</span></button>
+      <div class="faq-answer"><p>O laudo médico especializado é entregue digitalmente em até 7 dias úteis.</p></div>
+    </div>
   </div>
 </section>
 
