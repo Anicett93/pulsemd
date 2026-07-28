@@ -53,414 +53,241 @@
     }
     </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 <!-- Verificação google -->
 <meta name="google-site-verification" content="-9vvjs6QmyAA6rPieMhFDHRIyv1VFenfZnsavH-v8P0" />
-    
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
 </head>
 
 <body>
 
 <!-- HEADER -->
-	<header id="header-container">
-        <div id="header"></div>
-    </header>
+<div id="header-container">
+  <div id="header"></div>
+</div>
 
-<!-- HERO -->
+<!-- HERO VIVO -->
 <section class="hero">
-
-    <!-- IMAGEM FULL -->
-    <div class="hero-image">
-      <picture>
-        <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.png">
-        <img src="images/hero-pulse-md.png" alt="Monitoramento domiciliar">
-      </picture>
+  <div class="ecg-band" aria-hidden="true">
+    <div class="ecg-track">
+      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
+      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
     </div>
-
-    <!-- TEXTO ABAIXO -->
-    <div class="hero-content">
-        <div class="container">
-
-                <h1>Monitorização domiciliar especializada para o coração e o sono.</h1>
-                
-                <p>
-                Realizamos monitorização cardíaca prolongada e polissonografia domiciliar utilizando tecnologia avançada, logística própria e acompanhamento especializado em toda a Região Sul do Brasil.
-                </p>
-            <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20saber%20qual%20exame%20é%20mais%20indicado%20para%20mim.">
-                Quero saber qual exame é indicado
-            </a>
-            </a>
-
-        </div>
+  </div>
+  <div class="hero-inner">
+    <h1>Monitorização domiciliar especializada para o <span class="accent">coração e o sono.</span></h1>
+    <p>Realizamos monitorização cardíaca prolongada e polissonografia domiciliar utilizando tecnologia avançada, logística própria e acompanhamento especializado em toda a Região Sul do Brasil.</p>
+    <div class="hero-cta">
+      <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20saber%20qual%20exame%20é%20mais%20indicado%20para%20mim.">Quero saber qual exame é indicado</a>
     </div>
-
+  </div>
 </section>
 
-<!-- Nossas especialidades -->
-
+<!-- NOSSAS ESPECIALIDADES -->
 <section id="especialidades" class="section container">
-
-    <h2>Nossas especialidades</h2>
-
-    <div class="cards">
-
-        <div class="card">
-
-            <img src="images/homem.png" alt="Monitorização cardíaca">
-
-            <h3>Monitorização Cardíaca Domiciliar</h3>
-
-            <p>
-                Monitorização cardíaca prolongada com telemetria em tempo real, acompanhamento especializado e maior possibilidade de identificação de arritmias intermitentes.
-            </p>
-
-            <a class="btn" href="holter-7-dias.html">
-                Saiba mais
-            </a>
-
-        </div>
-
-        <div class="card">
-
-            <img src="images/especialidade-sono.png" alt="Polissonografia domiciliar">
-
-            <h3>Monitorização do Sono</h3>
-
-            <p>
-                Polissonografia domiciliar com tecnologia ResMed para investigação de apneia do sono, ronco e distúrbios respiratórios do sono.
-            </p>
-
-            <a class="btn" href="polissonografia-domiciliar.html">
-                Saiba mais
-            </a>
-
-        </div>
-
+  <h2 class="reveal">Nossas especialidades</h2>
+  <div class="cards reveal-group">
+    <div class="card">
+      <img src="images/homem.png" alt="Monitorização cardíaca">
+      <h3>Monitorização Cardíaca Domiciliar</h3>
+      <p>Monitorização cardíaca prolongada com telemetria em tempo real, acompanhamento especializado e maior possibilidade de identificação de arritmias intermitentes.</p>
+      <a class="btn btn-ghost" href="holter-7-dias.html" style="margin-top:16px;">Saiba mais</a>
     </div>
-
+    <div class="card">
+      <img src="images/especialidade-sono.png" alt="Polissonografia domiciliar">
+      <h3>Monitorização do Sono</h3>
+      <p>Polissonografia domiciliar com tecnologia ResMed para investigação de apneia do sono, ronco e distúrbios respiratórios do sono.</p>
+      <a class="btn btn-ghost" href="polissonografia-domiciliar.html" style="margin-top:16px;">Saiba mais</a>
+    </div>
+  </div>
 </section>
 
 <!-- PROBLEMA -->
 <section class="problema">
-    <div class="container">
-
-        <div class="problema-imagem">
-            <picture>
-                <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
-                <img src="images/Holter-evolucao-mulher.png" alt="Evolução do monitoramento cardíaco">
-            </picture>
-        </div>
-
-        <div class="problema-texto">
-            <h2>A evolução da monitorização permite exames mais completos sem sair de casa.</h2>
-
-            <p>
-                Alterações cardíacas e distúrbios do sono podem ocorrer de forma intermitente, o que significa que exames rápidos ou realizados em um único momento podem não registrar essas variações importantes.
-            </p>
-
-            <p>
-                A monitorização prolongada aumenta significativamente a chance de identificação dessas alterações. Ao realizar o exame no ambiente habitual do paciente, geramos informações muito mais representativas da rotina real, proporcionando um diagnóstico mais preciso e humano.
-            </p>
-
-            <p>
-                Com a <strong>Pulse MD</strong>, você conta com tecnologia avançada e acompanhamento especializado durante todo o processo, garantindo dados completos sem a necessidade de deslocamentos desnecessários.
-            </p>
-
-        </div>
-
+  <div class="container">
+    <div class="problema-imagem reveal">
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
+        <img src="images/Holter-evolucao-mulher.png" alt="Evolução do monitoramento cardíaco">
+      </picture>
     </div>
+    <div class="problema-texto reveal">
+      <h2>A evolução da monitorização permite exames mais completos sem sair de casa.</h2>
+      <p>Alterações cardíacas e distúrbios do sono podem ocorrer de forma intermitente, o que significa que exames rápidos ou realizados em um único momento podem não registrar essas variações importantes.</p>
+      <p>A monitorização prolongada aumenta significativamente a chance de identificação dessas alterações. Ao realizar o exame no ambiente habitual do paciente, geramos informações muito mais representativas da rotina real, proporcionando um diagnóstico mais preciso e humano.</p>
+      <p>Com a <strong>Pulse MD</strong>, você conta com tecnologia avançada e acompanhamento especializado durante todo o processo, garantindo dados completos sem a necessidade de deslocamentos desnecessários.</p>
+    </div>
+  </div>
 </section>
 
-    
-<!-- Foto moto -->
-<div class="moto-banner">
+<!-- MOTO -->
+<div class="moto-banner reveal">
   <picture>
     <source media="(max-width: 768px)" srcset="images/moto-mobile.png">
     <img src="images/moto.png" alt="Entrega do equipamento para monitoramento cardíaco domiciliar">
   </picture>
 </div>
-    
-<!-- COMO FUNCIONA (SUA IMAGEM) -->
 
+<!-- COMO FUNCIONA -->
 <section class="como-funciona-texto">
-    <div class="container">
-
-        <h2>Do contato ao laudo: simples, rápido e acompanhado por especialistas</h2>
-        <p>
-            A Pulse MD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.
-        </p>
-        
-        <p>
-            Tudo começa com um contato rápido pelo WhatsApp. Nossa equipe realiza o atendimento inicial e envia um orçamento de acordo com a sua cidade e região em toda a Região Sul.
-        </p>
-
-        <p>
-            Após a confirmação, você recebe o equipamento indicado para o exame solicitado, acompanhado de suporte especializado e instruções completas para uma instalação simples.
-        </p>
-
-        <p>
-            Durante a monitorização cardíaca, o dispositivo envia informações continuamente para uma plataforma segura, permitindo acompanhamento especializado durante todo o período do exame.
-        </p>
-
-        <p>
-            Um especialista acompanha todo o processo, garantindo a qualidade dos dados coletados. Ao final, seu exame é avaliado por um médico especialista e o laudo é entregue em até 7 dias úteis.
-        </p>
-
-    </div>
-</section>
-<section class="section container">
-    <h3 style="text-align: center; margin-bottom: 30px;">Como funciona a Polissonografia</h3>
-    <p style="text-align: center; max-width: 800px; margin: 0 auto 30px;">
-        A polissonografia domiciliar avalia parâmetros respiratórios, oxigenação, frequência cardíaca e outros indicadores importantes durante uma noite completa de sono, no ambiente habitual do paciente.
-    </p>
-    <div class="big-image">
-        <picture>
-            <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.png">
-            <img src="images/Polisso_como_funciona.png" alt="Como funciona a Polissonografia Domiciliar">
-        </picture>
-    </div>
+  <div class="container">
+    <h2 class="reveal">Do contato ao laudo: simples, rápido e acompanhado por especialistas</h2>
+    <p class="reveal">A Pulse MD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.</p>
+    <p class="reveal">Tudo começa com um contato rápido pelo WhatsApp. Nossa equipe realiza o atendimento inicial e envia um orçamento de acordo com a sua cidade e região em toda a Região Sul.</p>
+    <p class="reveal">Após a confirmação, você recebe o equipamento indicado para o exame solicitado, acompanhado de suporte especializado e instruções completas para uma instalação simples.</p>
+    <p class="reveal">Durante a monitorização cardíaca, o dispositivo envia informações continuamente para uma plataforma segura, permitindo acompanhamento especializado durante todo o período do exame.</p>
+    <p class="reveal">Um especialista acompanha todo o processo, garantindo a qualidade dos dados coletados. Ao final, seu exame é avaliado por um médico especialista e o laudo é entregue em até 7 dias úteis.</p>
+  </div>
 </section>
 
+<!-- COMO FUNCIONA A POLISSONOGRAFIA -->
 <section class="section container">
-    <h3 style="text-align: center; margin-bottom: 30px;">Como funciona a Monitorização Cardíaca</h3>
-    <div class="big-image">
-        <img src="images/como-funciona.jpg" alt="Como funciona a Monitorização Cardíaca Domiciliar">
-    </div>
+  <h3 class="reveal" style="text-align:center; margin-bottom:20px;">Como funciona a Polissonografia</h3>
+  <p class="reveal" style="text-align:center; max-width:800px; margin:0 auto 20px;">A polissonografia domiciliar avalia parâmetros respiratórios, oxigenação, frequência cardíaca e outros indicadores importantes durante uma noite completa de sono, no ambiente habitual do paciente.</p>
+  <div class="big-image reveal">
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.png">
+      <img src="images/Polisso_como_funciona.png" alt="Como funciona a Polissonografia Domiciliar">
+    </picture>
+  </div>
 </section>
 
-<!-- SERVIÇOS -->
+<!-- COMO FUNCIONA A MONITORIZAÇÃO CARDÍACA -->
 <section class="section container">
+  <h3 class="reveal" style="text-align:center; margin-bottom:20px;">Como funciona a Monitorização Cardíaca</h3>
+  <div class="big-image reveal">
+    <img src="images/como-funciona.jpg" alt="Como funciona a Monitorização Cardíaca Domiciliar">
+  </div>
+</section>
 
-<h2>Nossas soluções em monitorização domiciliar</h2>
-
-<div class="cards">
-
-<div class="card">
-<i class="fa-solid fa-heart-pulse"></i>
-<p>Holter 7 dias</p>
-</div>
-
-<div class="card">
-<i class="fa-solid fa-heart-pulse"></i>
-<p>Monitorização prolongada</p>
-</div>
-
-<div class="card">
-<i class="fa-solid fa-moon"></i>
-<p>Polissonografia domiciliar</p>
-</div>
-
-<div class="card">
-<i class="fa-solid fa-heart-pulse"></i>
-<p>Monitorização para atletas</p>
-</div>
-
-</div>
-
+<!-- SOLUÇÕES -->
+<section class="section container">
+  <h2 class="reveal">Nossas soluções em monitorização domiciliar</h2>
+  <div class="cards reveal-group">
+    <div class="card"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Holter 7 dias</p></div>
+    <div class="card"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Monitorização prolongada</p></div>
+    <div class="card"><i class="fa-solid fa-moon" aria-hidden="true"></i><p>Polissonografia domiciliar</p></div>
+    <div class="card"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Monitorização para atletas</p></div>
+  </div>
 </section>
 
 <!-- PARA QUEM -->
 <section class="section indicacoes">
-    <div class="container">
-        <h2>Para quem é indicado</h2>
-
-        <div class="cards">
-<div class="card">
-                <i class="fa-solid fa-heart-pulse"></i>
-                <p>Palpitações e arritmias</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-file-medical"></i>
-                <p>Holter inconclusivo</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-moon"></i>
-                <p>Suspeita de apneia do sono</p>
-            </div>
-
-            <div class="card">
-                <i class="fa-solid fa-bed"></i>
-                <p>Ronco e sonolência excessiva</p>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-heart-circle-exclamation"></i>
-                <p>Investigação de síncope</p>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-wave-square"></i>
-                <p>Controle de fibrilação atrial</p>
-            </div>
-            <div class="card">
-                <i class="fa-solid fa-stethoscope"></i>
-                <p>Hipertensão resistente</p>
-            </div>
-        </div>
+  <div class="container">
+    <h2 class="reveal">Para quem é indicado</h2>
+    <div class="cards reveal-group">
+      <div class="card"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Palpitações e arritmias</p></div>
+      <div class="card"><i class="fa-solid fa-file-medical" aria-hidden="true"></i><p>Holter inconclusivo</p></div>
+      <div class="card"><i class="fa-solid fa-moon" aria-hidden="true"></i><p>Suspeita de apneia do sono</p></div>
+      <div class="card"><i class="fa-solid fa-bed" aria-hidden="true"></i><p>Ronco e sonolência excessiva</p></div>
+      <div class="card"><i class="fa-solid fa-heart-circle-exclamation" aria-hidden="true"></i><p>Investigação de síncope</p></div>
+      <div class="card"><i class="fa-solid fa-wave-square" aria-hidden="true"></i><p>Controle de fibrilação atrial</p></div>
+      <div class="card"><i class="fa-solid fa-stethoscope" aria-hidden="true"></i><p>Hipertensão resistente</p></div>
     </div>
+  </div>
 </section>
 
+<!-- CONFORTO -->
 <section class="section container">
-
-    <div class="big-image">
-        <img src="images/conforto-domiciliar.png" alt="Exames domiciliares">
-    </div>
-
-    <h2>Seu exame no ambiente onde sua rotina realmente acontece.</h2>
-
-    <p>
-        Realizar o exame em casa proporciona muito mais conforto e permite registrar situações reais do seu dia e da noite. Isso melhora significativamente a representatividade clínica das informações obtidas, auxiliando em um diagnóstico mais preciso.
-    </p>
-
+  <div class="big-image reveal">
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.png">
+      <img src="images/hero-pulse-md.png" alt="Exames domiciliares no conforto da sua casa">
+    </picture>
+  </div>
+  <h2 class="reveal" style="margin-top:42px; text-align:center;">Seu exame no ambiente onde sua rotina realmente acontece.</h2>
+  <p class="reveal" style="text-align:center; max-width:800px; margin:18px auto 0;">Realizar o exame em casa proporciona muito mais conforto e permite registrar situações reais do seu dia e da noite. Isso melhora significativamente a representatividade clínica das informações obtidas, auxiliando em um diagnóstico mais preciso.</p>
 </section>
 
-<!-- SEÇÃO DE VÍDEO (HTML) -->
-
+<!-- VÍDEO -->
 <section class="video-instalacao">
-    <div class="container">
-
-        <h2>Veja como é simples instalar o dispositivo</h2>
-
-        <p>
-            Veja como a instalação é simples e pode ser realizada em poucos minutos, com orientação da nossa equipe sempre que necessário. Assista ao vídeo e veja como funciona na prática.
-        </p>
-
-        <div class="video-wrapper">
-            <iframe 
-                src="https://www.youtube.com/embed/L0rif6eUctI" 
-                loading="lazy"
-                title="Instalação do monitor cardíaco"
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
-        </div>
-
+  <div class="container">
+    <h2 class="reveal">Veja como é simples instalar o dispositivo</h2>
+    <p class="reveal">Veja como a instalação é simples e pode ser realizada em poucos minutos, com orientação da nossa equipe sempre que necessário. Assista ao vídeo e veja como funciona na prática.</p>
+    <div class="video-wrapper reveal">
+      <iframe src="https://www.youtube.com/embed/L0rif6eUctI" loading="lazy" title="Instalação do monitor cardíaco" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+  </div>
 </section>
-    
+
 <!-- CTA -->
 <section class="cta">
-    <img src="images/logo-branco.png" alt="Pulse MD" style="height:50px;">
-
-    <h2>Estamos prontos para orientar você.</h2>
-    <p>Nossa equipe ajuda a identificar qual exame pode ser mais adequado para sua situação clínica.</p>
-    <br>
-
+  <div class="ecg-band" aria-hidden="true">
+    <div class="ecg-track">
+      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
+      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
+    </div>
+  </div>
+  <img src="images/logo-branco.png" alt="Pulse MD">
+  <h2 class="reveal">Estamos prontos para orientar você.</h2>
+  <p class="reveal">Nossa equipe ajuda a identificar qual exame pode ser mais adequado para sua situação clínica.</p>
+  <div class="hero-cta">
     <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20agendar%20um%20monitoramento">Agendar agora</a>
-
-    <p class="or-text">ou</p>
-
-    <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20encontrar%20um%20médico%20parceiro">Encontrar um médico</a>
+    <a class="btn btn-ghost" href="https://wa.me/555194293793?text=Olá,%20quero%20encontrar%20um%20médico%20parceiro" style="color:#dbe6ff;border-color:rgba(219,230,255,.4)">Encontrar um médico</a>
+  </div>
 </section>
 
 <!-- MÉDICOS -->
 <section class="medicos">
-    <div class="container">
-
-        <h2>Mais precisão diagnóstica para sua prática clínica</h2>
-
-        <p>
-            A Pulse MD atua em parceria com médicos e clínicas oferecendo monitorização domiciliar, logística especializada, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.
-        </p>
-
-        <p>
-            Nossa estrutura foi desenhada para integrar tecnologia e suporte clínico, garantindo que o médico solicitante tenha em mãos dados de alta qualidade e representatividade para a melhor tomada de decisão.
-        </p>
-
-        <a class="btn" href="https://wa.me/555194293793?text=Olá,%20sou%20médico(a)%20e%20quero%20entender%20como%20oferecer%20o%20monitoramento%20para%20meus%20pacientes">
-            Falar com especialista
-        </a>
-
-    </div>
+  <div class="container">
+    <h2 class="reveal">Mais precisão diagnóstica para sua prática clínica</h2>
+    <p class="reveal">A Pulse MD atua em parceria com médicos e clínicas oferecendo monitorização domiciliar, logística especializada, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.</p>
+    <p class="reveal">Nossa estrutura foi desenhada para integrar tecnologia e suporte clínico, garantindo que o médico solicitante tenha em mãos dados de alta qualidade e representatividade para a melhor tomada de decisão.</p>
+    <a class="btn reveal" href="https://wa.me/555194293793?text=Olá,%20sou%20médico(a)%20e%20quero%20entender%20como%20oferecer%20o%20monitoramento%20para%20meus%20pacientes">Falar com especialista</a>
+  </div>
 </section>
 
 <!-- POR QUE CONFIAR -->
 <section class="section container">
-    <h2 style="text-align: center;">Por que confiar na Pulse MD?</h2>
-    <div class="cards">
-        <div class="card">
-            <i class="fa-solid fa-check-double"></i>
-            <h3>Tecnologia validada</h3>
-        </div>
-        <div class="card">
-            <i class="fa-solid fa-tower-broadcast"></i>
-            <h3>Monitorização em tempo real</h3>
-        </div>
-        <div class="card">
-            <i class="fa-solid fa-house-medical"></i>
-            <h3>Atendimento domiciliar</h3>
-        </div>
-        <div class="card">
-            <i class="fa-solid fa-user-doctor"></i>
-            <h3>Especialistas durante todo o exame</h3>
-        </div>
-        <div class="card">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h3>Logística própria</h3>
-        </div>
-        <div class="card">
-            <i class="fa-solid fa-map-location-dot"></i>
-            <h3>Atendimento em toda a Região Sul</h3>
-        </div>
-    </div>
+  <h2 class="reveal" style="text-align:center;">Por que confiar na Pulse MD?</h2>
+  <div class="cards reveal-group">
+    <div class="card"><i class="fa-solid fa-check-double" aria-hidden="true"></i><h3>Tecnologia validada</h3></div>
+    <div class="card"><i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i><h3>Monitorização em tempo real</h3></div>
+    <div class="card"><i class="fa-solid fa-house-medical" aria-hidden="true"></i><h3>Atendimento domiciliar</h3></div>
+    <div class="card"><i class="fa-solid fa-user-doctor" aria-hidden="true"></i><h3>Especialistas durante todo o exame</h3></div>
+    <div class="card"><i class="fa-solid fa-truck-fast" aria-hidden="true"></i><h3>Logística própria</h3></div>
+    <div class="card"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i><h3>Atendimento em toda a Região Sul</h3></div>
+  </div>
 </section>
 
-<!-- MAPA E ATENDIMENTO -->
+<!-- MAPA -->
 <section class="section container">
-    <h2 style="text-align: center;">Atendemos pacientes em toda a Região Sul do Brasil</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: center; justify-content: center; margin-top: 30px;">
-        <div style="flex: 1; min-width: 300px;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.4645224522!2d-51.2177!3d-30.0346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979a9a9a9a9a9%3A0x9a9a9a9a9a9a9a9a!2sPulse%20MD!5e0!3m2!1spt-BR!2sbr!4v1711000000000!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-        <div style="flex: 1; min-width: 300px; background: #f8fafc; padding: 30px; border-radius: 15px;">
-            <p style="margin-bottom: 20px;">Nossa logística própria permite atender pacientes com agilidade e segurança em toda a região Sul:</p>
-            <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="color: #002BAD; margin-right: 10px;"></i> <strong>Rio Grande do Sul:</strong> Porto Alegre, Canoas, Caxias do Sul e interior.</li>
-                <li style="margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="color: #002BAD; margin-right: 10px;"></i> <strong>Santa Catarina:</strong> Florianópolis, Joinville, Blumenau e litoral.</li>
-                <li style="margin-bottom: 10px;"><i class="fa-solid fa-location-dot" style="color: #002BAD; margin-right: 10px;"></i> <strong>Paraná:</strong> Curitiba, Londrina, Maringá e demais cidades.</li>
-            </ul>
-            <p style="margin-top: 20px; font-size: 14px; color: #4A5568;">Consulte a disponibilidade para sua cidade através do nosso atendimento.</p>
-        </div>
+  <h2 class="reveal" style="text-align:center;">Atendemos pacientes em toda a Região Sul do Brasil</h2>
+  <div style="display:flex; flex-wrap:wrap; gap:30px; align-items:stretch; justify-content:center; margin-top:30px;">
+    <div style="flex:1; min-width:300px;" class="reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.4645224522!2d-51.2177!3d-30.0346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979a9a9a9a9a9%3A0x9a9a9a9a9a9a9a9a!2sPulse%20MD!5e0!3m2!1spt-BR!2sbr!4v1711000000000!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0; border-radius:16px;" allowfullscreen loading="lazy"></iframe>
     </div>
+    <div style="flex:1; min-width:300px;" class="mapa-box reveal">
+      <p style="margin-bottom:20px;">Nossa logística própria permite atender pacientes com agilidade e segurança em toda a região Sul:</p>
+      <ul>
+        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><strong>Rio Grande do Sul:</strong> Porto Alegre, Canoas, Caxias do Sul e interior.</li>
+        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><strong>Santa Catarina:</strong> Florianópolis, Joinville, Blumenau e litoral.</li>
+        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><strong>Paraná:</strong> Curitiba, Londrina, Maringá e demais cidades.</li>
+      </ul>
+      <p style="margin-top:20px; font-size:14px; color:var(--muted);">Consulte a disponibilidade para sua cidade através do nosso atendimento.</p>
+    </div>
+  </div>
 </section>
 
 <!-- FAQ -->
 <section class="section container">
-    <h2 style="text-align: center; margin-bottom: 40px;">Perguntas Frequentes</h2>
-    <div class="faq-article" style="background: #f8fafc; padding: 30px; border-radius: 15px;">
-        <div style="margin-bottom: 20px;">
-            <h3 style="font-size: 18px; color: #002BAD; margin-bottom: 5px;">O Holter pode não detectar minha arritmia?</h3>
-            <p style="color: #4A5568;">Sim, arritmias intermitentes podem não ocorrer em 24h. A monitorização prolongada aumenta essa chance.</p>
-        </div>
-        <div style="margin-bottom: 20px;">
-            <h3 style="font-size: 18px; color: #002BAD; margin-bottom: 5px;">Qual a diferença entre Holter 24h e monitorização prolongada?</h3>
-            <p style="color: #4A5568;">O tempo de registro e a tecnologia de telemetria em tempo real, que permite acompanhamento durante o exame.</p>
-        </div>
-        <div style="margin-bottom: 20px;">
-            <h3 style="font-size: 18px; color: #002BAD; margin-bottom: 5px;">Quem precisa fazer polissonografia domiciliar?</h3>
-            <p style="color: #4A5568;">Pacientes com ronco, sonolência excessiva ou suspeita de apneia obstrutiva do sono.</p>
-        </div>
-        <div style="margin-bottom: 20px;">
-            <h3 style="font-size: 18px; color: #002BAD; margin-bottom: 5px;">Quanto tempo demora o laudo?</h3>
-            <p style="color: #4A5568;">O laudo médico especializado é entregue digitalmente em até 7 dias úteis.</p>
-        </div>
-    </div>
+  <h2 class="reveal" style="text-align:center; margin-bottom:40px;">Perguntas Frequentes</h2>
+  <div class="faq-article reveal">
+    <div><h3>O Holter pode não detectar minha arritmia?</h3><p>Sim, arritmias intermitentes podem não ocorrer em 24h. A monitorização prolongada aumenta essa chance.</p></div>
+    <div><h3>Qual a diferença entre Holter 24h e monitorização prolongada?</h3><p>O tempo de registro e a tecnologia de telemetria em tempo real, que permite acompanhamento durante o exame.</p></div>
+    <div><h3>Quem precisa fazer polissonografia domiciliar?</h3><p>Pacientes com ronco, sonolência excessiva ou suspeita de apneia obstrutiva do sono.</p></div>
+    <div><h3>Quanto tempo demora o laudo?</h3><p>O laudo médico especializado é entregue digitalmente em até 7 dias úteis.</p></div>
+  </div>
 </section>
 
 <!-- FOOTER -->
-	<footer id="footer-container">
-        <div id="footer"></div>
-    </footer>
+<div id="footer-container">
+  <div id="footer"></div>
+</div>
 
 <!-- BOTÃO FLUTUANTE -->
-<a class="whatsapp" href="https://wa.me/555194293793">📲</a>
+<a class="whatsapp" href="https://wa.me/555194293793" aria-label="Falar no WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
 
 <script src="js/script.js"></script>
 </body>
