@@ -115,6 +115,11 @@ h1, h2, h3, .display, .stat-num, .pub-title, .faq-title, .faq-question {
 .ecg-line { fill: none; stroke: var(--signal-glow); stroke-width: 2.5; filter: drop-shadow(0 0 6px rgba(91,140,255,0.9)); }
 @keyframes ecgScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
+/* Variante respiratória (páginas de sono/polissonografia): onda de fluxo aéreo, mais lenta e suave */
+.ecg-band.resp { opacity: .5; }
+.ecg-band.resp .ecg-track { animation-duration: 15s; }
+.ecg-band.resp .ecg-line { stroke-width: 3; }
+
 .hero-inner { max-width: 1100px; margin: auto; padding: 96px 20px 104px; text-align: center; position: relative; }
 .hero-inner h1 { color: #fff; font-size: 52px; margin-bottom: 22px; }
 .hero-inner h1 .accent { color: var(--signal-glow); }
@@ -205,6 +210,29 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
 .article-content ul { margin: 0 0 20px 22px; }
 .article-content li { font-size: 18px; color: var(--muted); line-height: 1.8; margin-bottom: 8px; }
 .article-content strong { color: var(--navy); }
+
+/* ===================== META DO ARTIGO ===================== */
+.article-meta { color: var(--muted); font-size: 15px; text-align: center; margin: 8px 0 10px; }
+.article-lead { font-size: 20px; color: var(--muted); text-align: center; max-width: 760px; margin: 0 auto 10px; line-height: 1.5; }
+.article-disclaimer { font-size: 14px; color: var(--muted); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-top: 36px; }
+
+/* Espaço reservado para imagem (sugestão) */
+.img-suggest {
+  background: #eef3ff; border: 1.5px dashed rgba(0,43,173,.4); border-radius: 12px;
+  padding: 28px 24px; text-align: center; color: var(--muted); margin: 32px 0;
+}
+.img-suggest i { font-size: 30px; color: var(--cobalt); display: block; margin-bottom: 10px; }
+.img-suggest strong { color: var(--navy); }
+.img-suggest small { display: block; margin-top: 6px; font-size: 12px; color: var(--muted); }
+
+/* ===================== CALLOUT / RESUMO (GEO) ===================== */
+.callout {
+  max-width: 860px; margin: 0 auto; background: #eef3ff;
+  border-left: 5px solid var(--cobalt); border-radius: 0 12px 12px 0;
+  padding: 26px 30px;
+}
+.callout h2 { font-size: 22px; color: var(--cobalt); margin-bottom: 10px; text-align: left; }
+.callout p { font-size: 17px; color: var(--navy); line-height: 1.6; margin-bottom: 0; }
 
 /* ===================== FAQ (artigo + acordeão) ===================== */
 .faq-article { background: var(--surface); padding: 34px; border-radius: var(--radius); border: 1px solid var(--line); box-shadow: var(--shadow); }
