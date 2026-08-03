@@ -201,6 +201,9 @@ a.card { text-decoration: none; color: inherit; display: block; }
 .cta .or-text { margin: 16px 0; display: block; width: 100%; }
 
 .medicos { background: var(--bg); }
+.medico-steps { list-style: none; padding: 0; margin: 28px auto 30px; max-width: 760px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px 24px; text-align: left; }
+.medico-steps li { font-size: 16px; color: var(--navy); display: flex; align-items: center; gap: 10px; }
+.medico-steps i { color: var(--cobalt); width: 22px; text-align: center; }
 
 /* ===================== ARTIGOS (páginas internas) ===================== */
 main > .section h1, main > .article-content h1, .article-content h1 { font-size: 40px; }
@@ -260,6 +263,15 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
 .mapa-box li { margin-bottom: 12px; }
 .mapa-box i { color: var(--cobalt); margin-right: 10px; }
 
+/* ===================== COBERTURA (mapa gráfico) ===================== */
+.cobertura-card { background: linear-gradient(135deg, var(--cobalt), var(--navy)); color: #fff; border-radius: 16px; padding: 34px 30px; height: 100%; display: flex; flex-direction: column; justify-content: center; box-shadow: var(--shadow); }
+.cobertura-head { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; display: flex; align-items: center; gap: 10px; margin-bottom: 22px; }
+.cobertura-head i { color: var(--signal-glow); }
+.cobertura-list { display: flex; flex-direction: column; gap: 14px; }
+.cob-uf-row { display: flex; align-items: center; gap: 14px; font-size: 18px; }
+.cob-uf { width: 46px; height: 46px; border-radius: 12px; background: rgba(91,140,255,.18); border: 1px solid rgba(91,140,255,.4); color: var(--signal-glow); font-family: 'Space Grotesk', sans-serif; font-weight: 700; display: flex; align-items: center; justify-content: center; flex: none; }
+.cobertura-foot { margin-top: 22px; font-size: 14px; color: rgba(255,255,255,.7); }
+
 /* ===================== PUBLICAÇÕES ===================== */
 .pub-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; margin-top: 40px; }
 .pub-card {
@@ -285,6 +297,8 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
 
 /* ===================== FOOTER ===================== */
 footer { background: var(--navy); color: rgba(255,255,255,0.85); text-align: center; padding: 38px 20px; }
+.footer-brand { font-weight: 500; }
+.footer-emergency { max-width: 760px; margin: 12px auto 0; font-size: 13px; line-height: 1.6; color: rgba(255,255,255,0.6); border-top: 1px solid rgba(255,255,255,0.12); padding-top: 14px; }
 
 /* ===================== SCROLL REVEAL ===================== */
 .reveal { opacity: 0; transform: translateY(26px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
