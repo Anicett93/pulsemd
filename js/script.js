@@ -91,12 +91,24 @@ document.addEventListener("DOMContentLoaded", function () {
   /* ===================== */
   /* FAQ ACORDEÃO */
   /* ===================== */
+  function initFaqAria() {
+    document.querySelectorAll(".faq-question").forEach(function (q) {
+      if (!q.hasAttribute("aria-expanded")) {
+        q.setAttribute("aria-expanded", q.closest(".faq-item")?.classList.contains("active") ? "true" : "false");
+      }
+    });
+  }
   document.addEventListener("click", function (e) {
     const question = e.target.closest(".faq-question");
     if (!question) return;
     const item = question.closest(".faq-item");
-    if (item) { item.classList.toggle("active"); }
+    if (item) {
+      const open = item.classList.toggle("active");
+      question.setAttribute("aria-expanded", open ? "true" : "false");
+    }
   });
+  initFaqAria();
+  setTimeout(initFaqAria, 400); /* cobre FAQ injetado via componente */
 
   /* start */
   initReveal();

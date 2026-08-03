@@ -162,6 +162,7 @@ h1, h2, h3, .display, .stat-num, .pub-title, .faq-title, .faq-question {
   background: linear-gradient(90deg, transparent, var(--signal), transparent);
   transform: translateX(-100%); transition: transform .5s var(--ease);
 }
+a.card { text-decoration: none; color: inherit; display: block; }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); border-color: rgba(0,43,173,0.25); }
 .card:hover::after { transform: translateX(100%); }
 .card h3 { margin-bottom: 14px; font-size: 20px; }
@@ -267,7 +268,7 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
   text-decoration: none; color: inherit; display: flex; flex-direction: column;
 }
 .pub-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-hover); border-color: rgba(0,43,173,0.25); }
-.pub-thumb { width: 100%; aspect-ratio: 16 / 9; overflow: hidden; position: relative; }
+.pub-thumb { width: 100%; aspect-ratio: 3 / 2; overflow: hidden; position: relative; }
 .pub-thumb img { width: 100%; height: 100%; object-fit: cover; }
 .pub-content { padding: 18px; }
 .pub-title { font-size: 18px; font-weight: 600; margin-bottom: 8px; line-height: 1.4; }
