@@ -110,7 +110,56 @@ document.addEventListener("DOMContentLoaded", function () {
   initFaqAria();
   setTimeout(initFaqAria, 400); /* cobre FAQ injetado via componente */
 
+  /* ===================== */
+  /* CONSENTIMENTO DE COOKIES (LGPD) + GA4 */
+  /* ===================== */
+  var GA4_ID = "G-R8YL1V66K3";
+  var CONSENT_KEY = "pulsemd_cookie_consent";
+
+  function loadGA4() {
+    if (window.__ga4Loaded) return;
+    window.__ga4Loaded = true;
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + GA4_ID;
+    document.head.appendChild(s);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    window.gtag("config", GA4_ID);
+  }
+
+  function initCookieConsent() {
+    var choice = localStorage.getItem(CONSENT_KEY);
+    if (choice === "granted") { loadGA4(); return; }
+    if (choice === "denied") { return; }
+
+    var banner = document.createElement("div");
+    banner.className = "cookie-banner";
+    banner.setAttribute("role", "region");
+    banner.setAttribute("aria-label", "Aviso de cookies");
+    banner.innerHTML =
+      '<p>Usamos cookies para entender como você usa o site e melhorar sua experiência. ' +
+      'Consulte nossa <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p>' +
+      '<div class="cookie-actions">' +
+      '<button type="button" class="btn-ghost cookie-reject">Rejeitar</button>' +
+      '<button type="button" class="btn cookie-accept">Aceitar</button>' +
+      "</div>";
+    document.body.appendChild(banner);
+
+    banner.querySelector(".cookie-accept").addEventListener("click", function () {
+      localStorage.setItem(CONSENT_KEY, "granted");
+      loadGA4();
+      banner.remove();
+    });
+    banner.querySelector(".cookie-reject").addEventListener("click", function () {
+      localStorage.setItem(CONSENT_KEY, "denied");
+      banner.remove();
+    });
+  }
+
   /* start */
   initReveal();
   adjustTopPadding();
+  initCookieConsent();
 });
