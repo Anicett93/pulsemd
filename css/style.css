@@ -268,6 +268,20 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
 .mapa-box li { margin-bottom: 12px; }
 .mapa-box i { color: var(--cobalt); margin-right: 10px; }
 
+/* ===================== DEPOIMENTOS ===================== */
+.testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; margin-top: 42px; }
+.testimonial-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 28px; display: flex; flex-direction: column; gap: 14px; }
+.testimonial-quote { font-family: var(--font-voice, serif); font-size: 17px; color: var(--navy); line-height: 1.6; }
+.testimonial-quote::before { content: '"'; color: var(--cobalt); }
+.testimonial-quote::after { content: '"'; color: var(--cobalt); }
+.testimonial-author { display: flex; align-items: center; gap: 12px; margin-top: auto; }
+.testimonial-avatar { width: 42px; height: 42px; border-radius: 50%; background: var(--bg); color: var(--cobalt); display: flex; align-items: center; justify-content: center; font-weight: 600; font-family: 'Space Grotesk', sans-serif; flex: none; }
+.testimonial-name { font-weight: 600; font-size: 15px; color: var(--navy); }
+.testimonial-role { font-size: 13px; color: var(--muted); }
+.google-rating { display: inline-flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 20px; margin-top: 24px; box-shadow: var(--shadow); text-decoration: none; }
+.google-rating i.fa-star { color: #f5a623; }
+.google-rating span { font-weight: 600; color: var(--navy); font-size: 14px; }
+
 /* ===================== COBERTURA (mapa gráfico) ===================== */
 .cobertura-card { background: linear-gradient(135deg, var(--cobalt), var(--navy)); color: #fff; border-radius: 16px; padding: 34px 30px; height: 100%; display: flex; flex-direction: column; justify-content: center; box-shadow: var(--shadow); }
 .cobertura-head { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; display: flex; align-items: center; gap: 10px; margin-bottom: 22px; }
