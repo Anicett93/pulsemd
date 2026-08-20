@@ -282,6 +282,19 @@ main > .section h1, main > .article-content h1, .article-content h1 { font-size:
 .google-rating i.fa-star { color: #f5a623; }
 .google-rating span { font-weight: 600; color: var(--navy); font-size: 14px; }
 
+/* Selo de avaliação do Google (destaque, hero) */
+.google-badge {
+  display: inline-flex; align-items: center; gap: 12px; background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.18); border-radius: 999px; padding: 8px 18px 8px 8px;
+  margin-top: 22px; text-decoration: none; backdrop-filter: blur(6px);
+}
+.google-badge .g-icon { width: 26px; height: 26px; border-radius: 50%; background: #fff; display: flex; align-items: center; justify-content: center; flex: none; }
+.google-badge .g-icon svg { width: 16px; height: 16px; }
+.google-badge .g-stars { color: #ffb020; font-size: 13px; letter-spacing: 1px; }
+.google-badge .g-text { color: #fff; font-size: 13px; font-weight: 600; }
+.google-badge .g-text small { display: block; font-weight: 400; color: rgba(255,255,255,0.7); font-size: 11px; }
+.google-badge:hover { background: rgba(255,255,255,0.14); }
+
 /* ===================== COBERTURA (mapa gráfico) ===================== */
 .cobertura-card { background: linear-gradient(135deg, var(--cobalt), var(--navy)); color: #fff; border-radius: 16px; padding: 34px 30px; height: 100%; display: flex; flex-direction: column; justify-content: center; box-shadow: var(--shadow); }
 .cobertura-head { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; display: flex; align-items: center; gap: 10px; margin-bottom: 22px; }
