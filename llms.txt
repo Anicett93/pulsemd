@@ -1,0 +1,38 @@
+# PulseMD — Monitorização Domiciliar
+
+> Clínica brasileira de monitorização cardíaca prolongada e polissonografia domiciliar. O paciente realiza o exame em casa, com o próprio sono e a própria rotina, e o laudo é feito por médico especialista. Atendimento em todo o território nacional.
+
+PulseMD significa Pulse Monitorização Domiciliar. O conceito central é registrar, preservar e recordar a atividade do coração: transformar sinais vitais em memória clínica confiável.
+
+## O que a PulseMD faz
+
+- **Monitorização cardíaca prolongada (Holter de até 7 dias)**: registro contínuo do ritmo cardíaco por vários dias, com maior chance de flagrar arritmias intermitentes do que o Holter tradicional de 24 horas.
+- **Polissonografia domiciliar**: exame do sono realizado na casa do paciente, avaliando fluxo respiratório, esforço, saturação de oxigênio, frequência cardíaca e posição corporal.
+- **Monitorização em tempo real (HiCardi)**: dispositivo sem fios, com eletrodos convencionais de ECG, que transmite o traçado ao celular e deste para visualização remota.
+
+## Aviso clínico importante
+
+A monitorização domiciliar não substitui atendimento de urgência nem funciona como suporte à vida. Diante de dor no peito, falta de ar, desmaio ou mal-estar intenso, procure imediatamente um pronto-socorro.
+
+## Páginas principais
+
+- [Início](https://pulsemd.com.br/): visão geral dos serviços e cobertura nacional.
+- [Exames](https://pulsemd.com.br/exames.html): lista dos exames oferecidos.
+- [Monitorização cardíaca](https://pulsemd.com.br/monitorizacao-cardiaca.html): como funciona o acompanhamento cardíaco domiciliar.
+- [Polissonografia domiciliar](https://pulsemd.com.br/polissonografia-domiciliar.html): como funciona o exame do sono em casa.
+- [Comparativo entre exames](https://pulsemd.com.br/comparativo-monitorizacao-domiciliar.html): Holter 24h, Holter 7 dias e polissonografia, lado a lado.
+- [Publicações](https://pulsemd.com.br/publicacoes.html): artigos clínicos e educativos.
+- [Política de privacidade](https://pulsemd.com.br/politica-de-privacidade.html): tratamento de dados sob a LGPD.
+
+## Artigos clínicos
+
+- [Apneia do sono e fibrilação atrial](https://pulsemd.com.br/apneia-do-sono-e-fibrilacao-atrial.html): como a apneia obstrutiva do sono influencia o ritmo cardíaco e quando investigar.
+- [Recorrência de fibrilação atrial após ablação](https://pulsemd.com.br/fibrilacao-atrial-recorrencia-apos-ablacao.html): por que a arritmia pode retornar e o papel do sono nos resultados.
+- [Holter de 7 dias](https://pulsemd.com.br/holter-7-dias.html): vantagens da monitorização prolongada na investigação de arritmias.
+- [HiCardi](https://pulsemd.com.br/hicardi-monitorizacao.html): validação clínica da monitorização cardíaca em tempo real.
+
+## Contato
+
+- WhatsApp: +55 51 99429-3793
+- Instagram: https://www.instagram.com/pulse_md/
+- LinkedIn: https://www.linkedin.com/company/pulse-monitoriza%C3%A7%C3%A3o-domiciliar/

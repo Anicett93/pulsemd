@@ -1,4 +1,30 @@
 User-agent: *
 Allow: /
 
+# Robôs de busca com IA. Liberados de propósito: bloquear impede que a PulseMD
+# seja citada como fonte nas respostas do ChatGPT, Perplexity, Claude e Gemini.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 Sitemap: https://pulsemd.com.br/sitemap.xml
