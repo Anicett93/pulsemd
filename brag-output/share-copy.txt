@@ -1,0 +1,1 @@
+Trace-ECG: leitura sistemática de ECG de 12 derivações em 8 etapas — direto no navegador, sem instalar, funciona offline. Grátis, por enquanto. pulsemd.com.br/trace-ecg
