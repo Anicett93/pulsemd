@@ -1,2 +1,10 @@
-brag-output/work/
-brag-output-*/work/
+# Saidas de video (brag/hyperframes): so o resultado final vai pro git
+brag-output*/
+videos/*/work/
+# Fonte da composicao tem musica de terceiros, fica so local
+videos/*/composition/
+*-backup.*
+
+# Skills locais de video (brag full + hyperframes): ~20MB com musica de terceiros, nao publicar no site
+.claude/skills/brag/
+.claude/skills/hyperframes-*/
