@@ -26,6 +26,7 @@ A monitorização domiciliar não substitui atendimento de urgência nem funcion
 
 ## Artigos clínicos
 
+- [Meu relógio avisou fibrilação atrial: e agora?](https://pulsemd.com.br/smartwatch-fibrilacao-atrial.html): o que o smartwatch detecta, o que dizem os estudos e quando completar com monitorização prolongada.
 - [Apneia do sono e fibrilação atrial](https://pulsemd.com.br/apneia-do-sono-e-fibrilacao-atrial.html): como a apneia obstrutiva do sono influencia o ritmo cardíaco e quando investigar.
 - [Recorrência de fibrilação atrial após ablação](https://pulsemd.com.br/fibrilacao-atrial-recorrencia-apos-ablacao.html): por que a arritmia pode retornar e o papel do sono nos resultados.
 - [Holter de 7 dias](https://pulsemd.com.br/holter-7-dias.html): vantagens da monitorização prolongada na investigação de arritmias.
