@@ -93,79 +93,109 @@
 <!-- Verificação google -->
 <meta name="google-site-verification" content="-9vvjs6QmyAA6rPieMhFDHRIyv1VFenfZnsavH-v8P0" />
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=20261030">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body class="home-c">
 
 <!-- HEADER -->
 <div id="header-container">
   <div id="header"></div>
 </div>
 
-<!-- HERO VIVO -->
-<section class="hero" id="conteudo">
-  <div class="ecg-band" aria-hidden="true">
-    <div class="ecg-track">
-      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
-      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
+<!-- HERO: papel milimetrado + monitor de dois canais -->
+<section class="hc-hero" id="conteudo">
+  <div class="hc-wrap hc-hero-grid">
+    <div>
+      <p class="lbl">Monitorização domiciliar · coração e sono</p>
+      <h1>Monitorização domiciliar especializada para o <em>coração e o sono.</em></h1>
+      <p class="hc-lead">Realizamos monitorização cardíaca prolongada e polissonografia domiciliar utilizando tecnologia avançada e acompanhamento especializado, em todo o território nacional.</p>
+      <div class="hc-ctas">
+        <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20falar%20com%20a%20equipe%20sobre%20os%20exames.">Falar com a equipe sobre os exames</a>
+        <a class="btn btn-ghost" href="#medicos">Sou médico ou clínica</a>
+      </div>
+      <a class="hc-google" href="https://share.google/KKXCzZQuONBABXvX8" target="_blank" rel="noopener">
+        <span class="g-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/><path fill="#34A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"/><path fill="#FBBC05" d="M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24s.85 6.91 2.34 9.88l7.35-5.7z"/><path fill="#EA4335" d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"/></svg></span>
+        <span class="g-stars" aria-hidden="true">★★★★★</span>
+        <span class="g-text">5.0 no Google<small>5 avaliações · ver perfil</small></span>
+      </a>
     </div>
-  </div>
-  <div class="hero-inner">
-    <h1>Monitorização domiciliar especializada para o <span class="accent">coração e o sono.</span></h1>
-    <p>Realizamos monitorização cardíaca prolongada e polissonografia domiciliar utilizando tecnologia avançada e acompanhamento especializado, em todo o território nacional.</p>
-    <div class="hero-cta">
-      <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20falar%20com%20a%20equipe%20sobre%20os%20exames.">Falar com a equipe sobre os exames</a>
-      <a class="btn btn-ghost" href="#medicos" style="color:#dbe6ff;border-color:rgba(219,230,255,.4)">Sou médico ou clínica</a>
-    </div>
-    <a class="google-badge" href="https://share.google/KKXCzZQuONBABXvX8" target="_blank" rel="noopener">
-      <span class="g-icon">
-        <svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z"/><path fill="#34A853" d="M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z"/><path fill="#FBBC05" d="M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24s.85 6.91 2.34 9.88l7.35-5.7z"/><path fill="#EA4335" d="M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z"/></svg>
-      </span>
-      <span class="g-stars">★★★★★</span>
-      <span class="g-text">5.0 no Google<small>5 avaliações · ver perfil</small></span>
-    </a>
+
+    <figure class="hc-monitor" aria-labelledby="mon-cap">
+      <div class="mon-top">
+        <span class="lbl">PulseMD · dois canais</span>
+        <button class="motion-toggle" type="button" aria-pressed="false" hidden><span class="mt-label">Pausar animação</span></button>
+      </div>
+      <div class="ch">
+        <div class="ch-head"><span class="lbl"><b>ECG</b> · coração</span><span class="lbl">até 7 dias</span></div>
+        <svg class="trace" viewBox="0 0 1200 120" aria-hidden="true" focusable="false"><path class="base" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 H404 q8 -10 16 0 H436 l5 6 l8 -44 l9 54 l6 -16 H488 q14 -18 28 0 H600 H704 q8 -10 16 0 H736 l5 6 l8 -44 l9 54 l6 -16 H788 q14 -18 28 0 H900 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/><path class="run" pathLength="1" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 H404 q8 -10 16 0 H436 l5 6 l8 -44 l9 54 l6 -16 H488 q14 -18 28 0 H600 H704 q8 -10 16 0 H736 l5 6 l8 -44 l9 54 l6 -16 H788 q14 -18 28 0 H900 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/></svg>
+      </div>
+      <div class="ch">
+        <div class="ch-head"><span class="lbl"><b>Fluxo</b> · sono</span><span class="lbl">uma noite</span></div>
+        <svg class="trace trace--resp" viewBox="0 0 1200 120" aria-hidden="true" focusable="false"><path class="base" d="M0 60 C50 28 150 28 200 60 S350 92 400 60 S550 28 600 60 S750 92 800 60 S950 28 1000 60 S1150 92 1200 60"/><path class="run" pathLength="1" d="M0 60 C50 28 150 28 200 60 S350 92 400 60 S550 28 600 60 S750 92 800 60 S950 28 1000 60 S1150 92 1200 60"/></svg>
+      </div>
+      <div class="readouts">
+        <div><span class="num">7<small>dias</small></span><p>de registro contínuo</p></div>
+        <div><span class="num">7<small>d. úteis</small></span><p>para a entrega do laudo</p></div>
+        <div><span class="num">BR</span><p>atendimento em todo o país</p></div>
+      </div>
+      <figcaption class="mon-note" id="mon-cap">Traçados ilustrativos. Não representam exame de paciente.</figcaption>
+    </figure>
   </div>
 </section>
 
 <!-- RESUMO (GEO) -->
-<section class="section container" style="padding-bottom:0;">
-  <div class="callout reveal">
-    <h2>Resumo: monitorização cardíaca e do sono em casa</h2>
-    <p>A PulseMD realiza <strong>monitorização cardíaca prolongada</strong>, com registro contínuo de até 7 dias e telemetria em tempo real, e <strong>polissonografia domiciliar</strong> para investigação de apneia do sono. O paciente faz o exame na própria casa, mantendo a rotina e o sono habituais, com acompanhamento de especialistas durante todo o período. O laudo é elaborado por médico especialista e entregue em até 7 dias úteis, com atendimento em todo o Brasil.</p>
-  </div>
-</section>
-
-<!-- NOSSAS ESPECIALIDADES -->
-<section id="especialidades" class="section container">
-  <h2 class="reveal">Nossas especialidades</h2>
-  <div class="cards reveal-group">
-    <div class="card">
-      <picture>
-        <source srcset="images/homem.webp" type="image/webp">
-        <img src="images/homem.png" alt="Paciente usando monitor cardíaco domiciliar da PulseMD" loading="lazy">
-      </picture>
-      <h3>Monitorização Cardíaca Domiciliar</h3>
-      <p>Monitorização cardíaca prolongada com telemetria em tempo real, acompanhamento especializado e maior possibilidade de identificação de arritmias intermitentes.</p>
-      <a class="btn btn-ghost" href="monitorizacao-cardiaca.html" style="margin-top:16px;">Saiba mais</a>
-    </div>
-    <div class="card">
-      <picture>
-        <source srcset="images/especialidade-sono.webp" type="image/webp">
-        <img src="images/especialidade-sono.png" alt="Dispositivo de polissonografia domiciliar para exame do sono" loading="lazy">
-      </picture>
-      <h3>Monitorização do Sono</h3>
-      <p>Polissonografia domiciliar com tecnologia ResMed para investigação de apneia do sono, ronco e distúrbios respiratórios do sono.</p>
-      <a class="btn btn-ghost" href="polissonografia-domiciliar.html" style="margin-top:16px;">Saiba mais</a>
+<section class="hc-sec hc-sec--tight">
+  <div class="hc-wrap">
+    <div class="callout">
+      <h2>Resumo: monitorização cardíaca e do sono em casa</h2>
+      <p>A PulseMD realiza <strong>monitorização cardíaca prolongada</strong>, com registro contínuo de até 7 dias e telemetria em tempo real, e <strong>polissonografia domiciliar</strong> para investigação de apneia do sono. O paciente faz o exame na própria casa, mantendo a rotina e o sono habituais, com acompanhamento de especialistas durante todo o período. O laudo é elaborado por médico especialista e entregue em até 7 dias úteis, com atendimento em todo o Brasil.</p>
     </div>
   </div>
 </section>
 
-<!-- PROBLEMA -->
-<section class="problema">
-  <div class="container">
-    <div class="problema-imagem reveal">
+<!-- 01 NOSSAS ESPECIALIDADES -->
+<section id="especialidades" class="hc-sec">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">01 · Especialidades</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Nossas especialidades</h2>
+    </div>
+    <div class="hc-exams">
+      <article class="hc-exam">
+        <div class="exam-ch"><span class="lbl">Canal ECG</span><svg viewBox="0 0 120 24" aria-hidden="true"><path d="M0 12H40l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H120"/></svg></div>
+        <picture>
+          <source srcset="images/homem.webp" type="image/webp">
+          <img src="images/homem.png" alt="Paciente usando monitor cardíaco domiciliar da PulseMD" loading="lazy">
+        </picture>
+        <div class="exam-body">
+          <h3>Monitorização Cardíaca Domiciliar</h3>
+          <p>Monitorização cardíaca prolongada com telemetria em tempo real, acompanhamento especializado e maior possibilidade de identificação de arritmias intermitentes.</p>
+          <a class="hc-link" href="monitorizacao-cardiaca.html">Saiba mais <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="hc-exam">
+        <div class="exam-ch"><span class="lbl">Canal fluxo</span><svg viewBox="0 0 120 24" aria-hidden="true"><path d="M0 12c10-8 20-8 30 0s20 8 30 0 20-8 30 0 20 8 30 0"/></svg></div>
+        <picture>
+          <source srcset="images/especialidade-sono.webp" type="image/webp">
+          <img src="images/especialidade-sono.png" alt="Dispositivo de polissonografia domiciliar para exame do sono" loading="lazy">
+        </picture>
+        <div class="exam-body">
+          <h3>Monitorização do Sono</h3>
+          <p>Polissonografia domiciliar com tecnologia ResMed para investigação de apneia do sono, ronco e distúrbios respiratórios do sono.</p>
+          <a class="hc-link" href="polissonografia-domiciliar.html">Saiba mais <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 02 PROBLEMA -->
+<section class="hc-sec hc-sec--white">
+  <div class="hc-wrap hc-split">
+    <div class="hc-photo">
       <picture>
         <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.webp" type="image/webp">
         <source media="(max-width: 768px)" srcset="images/Holter-evolucao-mulher-mobile.png">
@@ -173,7 +203,9 @@
         <img src="images/Holter-evolucao-mulher.png" alt="Mulher em casa durante monitorização cardíaca prolongada" loading="lazy">
       </picture>
     </div>
-    <div class="problema-texto reveal">
+    <div class="hc-prose">
+      <p class="lbl">02 · Exames mais completos</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
       <h2>A evolução da monitorização permite exames mais completos sem sair de casa.</h2>
       <p>Alterações cardíacas e distúrbios do sono podem ocorrer de forma intermitente, o que significa que exames rápidos ou realizados em um único momento podem não registrar essas variações importantes.</p>
       <p>A monitorização prolongada aumenta significativamente a chance de identificação dessas alterações. Ao realizar o exame no ambiente habitual do paciente, geramos informações muito mais representativas da rotina real, proporcionando uma avaliação mais representativa e humana.</p>
@@ -183,7 +215,7 @@
 </section>
 
 <!-- MOTO -->
-<div class="moto-banner reveal">
+<div class="hc-wrap hc-banner">
   <picture>
     <source media="(max-width: 768px)" srcset="images/moto-mobile.webp" type="image/webp">
     <source media="(max-width: 768px)" srcset="images/moto-mobile.png">
@@ -192,146 +224,177 @@
   </picture>
 </div>
 
-<!-- COMO FUNCIONA -->
-<section class="como-funciona-texto">
-  <div class="container">
-    <h2 class="reveal">Do contato ao laudo: simples, rápido e acompanhado por especialistas</h2>
-    <p class="reveal">A PulseMD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.</p>
-    <p class="reveal">Tudo começa com um contato rápido pelo WhatsApp. Nossa equipe realiza o atendimento inicial e envia um orçamento de acordo com a sua cidade, em todo o Brasil.</p>
-    <p class="reveal">Após a confirmação, você recebe o equipamento indicado para o exame solicitado, acompanhado de suporte especializado e instruções completas para uma instalação simples.</p>
-    <p class="reveal">Durante a monitorização cardíaca, o dispositivo envia informações continuamente para uma plataforma segura, permitindo acompanhamento especializado durante todo o período do exame.</p>
-    <p class="reveal">Um especialista acompanha todo o processo, cuidando da qualidade dos dados coletados. Ao final, seu exame é avaliado por um médico especialista e o laudo é entregue em até 7 dias úteis.</p>
-  </div>
-</section>
+<!-- 03 COMO FUNCIONA -->
+<section class="hc-sec" id="como-funciona">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">03 · Como funciona</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Do contato ao laudo: simples, rápido e acompanhado por especialistas</h2>
+      <p>A PulseMD foi criada para tornar exames especializados mais acessíveis, permitindo que pacientes realizem monitorizações cardíacas e do sono no ambiente onde vivem, trabalham e dormem.</p>
+    </div>
+    <ol class="hc-steps">
+      <li><span class="node" aria-hidden="true">1</span><p>Tudo começa com um contato rápido pelo WhatsApp. Nossa equipe realiza o atendimento inicial e envia um orçamento de acordo com a sua cidade, em todo o Brasil.</p></li>
+      <li><span class="node" aria-hidden="true">2</span><p>Após a confirmação, você recebe o equipamento indicado para o exame solicitado, acompanhado de suporte especializado e instruções completas para uma instalação simples.</p></li>
+      <li><span class="node" aria-hidden="true">3</span><p>Durante a monitorização cardíaca, o dispositivo envia informações continuamente para uma plataforma segura, permitindo acompanhamento especializado durante todo o período do exame.</p></li>
+      <li><span class="node" aria-hidden="true">4</span><p>Um especialista acompanha todo o processo, cuidando da qualidade dos dados coletados. Ao final, seu exame é avaliado por um médico especialista e o laudo é entregue em até 7 dias úteis.</p></li>
+    </ol>
 
-<!-- COMO FUNCIONA A POLISSONOGRAFIA -->
-<section class="section container">
-  <h3 class="reveal" style="text-align:center; margin-bottom:20px;">Como funciona a Polissonografia</h3>
-  <p class="reveal" style="text-align:center; max-width:800px; margin:0 auto 20px;">A polissonografia domiciliar avalia parâmetros respiratórios, oxigenação, frequência cardíaca e outros indicadores importantes durante uma noite completa de sono, no ambiente habitual do paciente.</p>
-  <div class="big-image reveal">
-    <picture>
-      <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.webp" type="image/webp">
-      <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.png">
-      <source srcset="images/Polisso_como_funciona.webp" type="image/webp">
-      <img src="images/Polisso_como_funciona.png" alt="Como funciona a Polissonografia Domiciliar" loading="lazy">
-    </picture>
-  </div>
-</section>
-
-<!-- COMO FUNCIONA A MONITORIZAÇÃO CARDÍACA -->
-<section class="section container">
-  <h3 class="reveal" style="text-align:center; margin-bottom:20px;">Como funciona a Monitorização Cardíaca</h3>
-  <div class="big-image reveal">
-    <picture>
-      <source srcset="images/como-funciona.webp" type="image/webp">
-      <img src="images/como-funciona.jpg" alt="Como funciona a Monitorização Cardíaca Domiciliar" loading="lazy">
-    </picture>
-  </div>
-</section>
-
-<!-- SOLUÇÕES -->
-<section class="section container">
-  <h2 class="reveal">Nossas soluções em monitorização domiciliar</h2>
-  <div class="cards reveal-group">
-    <a class="card" href="holter-7-dias.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Holter 7 dias</p></a>
-    <a class="card" href="monitorizacao-cardiaca.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Monitorização prolongada</p></a>
-    <a class="card" href="polissonografia-domiciliar.html"><i class="fa-solid fa-moon" aria-hidden="true"></i><p>Polissonografia domiciliar</p></a>
-    <a class="card" href="monitorizacao-cardiaca.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Monitorização para atletas</p></a>
-  </div>
-</section>
-
-<!-- PARA QUEM -->
-<section class="section indicacoes">
-  <div class="container">
-    <h2 class="reveal">Para quem é indicado</h2>
-    <div class="cards reveal-group">
-      <div class="card"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><p>Palpitações e arritmias</p></div>
-      <div class="card"><i class="fa-solid fa-file-medical" aria-hidden="true"></i><p>Holter inconclusivo</p></div>
-      <div class="card"><i class="fa-solid fa-moon" aria-hidden="true"></i><p>Suspeita de apneia do sono</p></div>
-      <div class="card"><i class="fa-solid fa-bed" aria-hidden="true"></i><p>Ronco e sonolência excessiva</p></div>
-      <div class="card"><i class="fa-solid fa-heart-circle-exclamation" aria-hidden="true"></i><p>Investigação de síncope</p></div>
-      <div class="card"><i class="fa-solid fa-wave-square" aria-hidden="true"></i><p>Controle de fibrilação atrial</p></div>
-      <div class="card"><i class="fa-solid fa-stethoscope" aria-hidden="true"></i><p>Hipertensão resistente</p></div>
+    <div class="hc-diagrams">
+      <figure class="hc-panel">
+        <figcaption><span class="lbl">Sono</span><h3>Como funciona a Polissonografia</h3><p>A polissonografia domiciliar avalia parâmetros respiratórios, oxigenação, frequência cardíaca e outros indicadores importantes durante uma noite completa de sono, no ambiente habitual do paciente.</p></figcaption>
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.webp" type="image/webp">
+          <source media="(max-width: 768px)" srcset="images/Polisso_como_funciona_mobile.png">
+          <source srcset="images/Polisso_como_funciona.webp" type="image/webp">
+          <img src="images/Polisso_como_funciona.png" alt="Como funciona a Polissonografia Domiciliar" loading="lazy">
+        </picture>
+      </figure>
+      <figure class="hc-panel">
+        <figcaption><span class="lbl">Coração</span><h3>Como funciona a Monitorização Cardíaca</h3></figcaption>
+        <picture>
+          <source srcset="images/como-funciona.webp" type="image/webp">
+          <img src="images/como-funciona.jpg" alt="Como funciona a Monitorização Cardíaca Domiciliar" loading="lazy">
+        </picture>
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- CONFORTO -->
-<section class="section container">
-  <div class="big-image reveal">
-    <picture>
-      <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.webp" type="image/webp">
-      <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.png">
-      <source srcset="images/hero-pulse-md.webp" type="image/webp">
-      <img src="images/hero-pulse-md.png" alt="Exames domiciliares no conforto da sua casa" loading="lazy">
-    </picture>
+<!-- 04 SOLUÇÕES -->
+<section class="hc-sec hc-sec--white">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">04 · Soluções</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Nossas soluções em monitorização domiciliar</h2>
+    </div>
+    <div class="hc-cells hc-cells--4">
+      <a href="holter-7-dias.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><span>Holter 7 dias</span><b aria-hidden="true">→</b></a>
+      <a href="monitorizacao-cardiaca.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><span>Monitorização prolongada</span><b aria-hidden="true">→</b></a>
+      <a href="polissonografia-domiciliar.html"><i class="fa-solid fa-moon" aria-hidden="true"></i><span>Polissonografia domiciliar</span><b aria-hidden="true">→</b></a>
+      <a href="monitorizacao-cardiaca.html"><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><span>Monitorização para atletas</span><b aria-hidden="true">→</b></a>
+    </div>
   </div>
-  <h2 class="reveal" style="margin-top:42px; text-align:center;">Seu exame no ambiente onde sua rotina realmente acontece.</h2>
-  <p class="reveal" style="text-align:center; max-width:800px; margin:18px auto 0;">Realizar o exame em casa proporciona muito mais conforto e permite registrar situações reais do seu dia e da noite. Isso melhora significativamente a representatividade clínica das informações obtidas, auxiliando em uma avaliação mais completa.</p>
 </section>
 
-<!-- VÍDEO -->
-<section class="video-instalacao">
-  <div class="container">
-    <h2 class="reveal">Veja como é simples instalar o dispositivo</h2>
-    <p class="reveal">Veja como a instalação é simples e pode ser realizada em poucos minutos, com orientação da nossa equipe sempre que necessário. Assista ao vídeo e veja como funciona na prática.</p>
-    <div class="video-wrapper reveal">
+<!-- 05 PARA QUEM -->
+<section class="hc-sec hc-sec--dark">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">05 · Indicações</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Para quem é indicado</h2>
+    </div>
+    <ul class="hc-cells hc-cells--dark">
+      <li><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>Palpitações e arritmias</li>
+      <li><i class="fa-solid fa-file-medical" aria-hidden="true"></i>Holter inconclusivo</li>
+      <li><i class="fa-solid fa-moon" aria-hidden="true"></i>Suspeita de apneia do sono</li>
+      <li><i class="fa-solid fa-bed" aria-hidden="true"></i>Ronco e sonolência excessiva</li>
+      <li><i class="fa-solid fa-heart-circle-exclamation" aria-hidden="true"></i>Investigação de síncope</li>
+      <li><i class="fa-solid fa-wave-square" aria-hidden="true"></i>Controle de fibrilação atrial</li>
+      <li><i class="fa-solid fa-stethoscope" aria-hidden="true"></i>Hipertensão resistente</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 06 CONFORTO -->
+<section class="hc-sec">
+  <div class="hc-wrap hc-split hc-split--wide">
+    <div class="hc-photo">
+      <picture>
+        <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.webp" type="image/webp">
+        <source media="(max-width: 768px)" srcset="images/hero-pulse-md-mobile.png">
+        <source srcset="images/hero-pulse-md.webp" type="image/webp">
+        <img src="images/hero-pulse-md.png" alt="Exames domiciliares no conforto da sua casa" loading="lazy">
+      </picture>
+    </div>
+    <div class="hc-prose">
+      <p class="lbl">06 · Na sua rotina</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Seu exame no ambiente onde sua rotina realmente acontece.</h2>
+      <p>Realizar o exame em casa proporciona muito mais conforto e permite registrar situações reais do seu dia e da noite. Isso melhora significativamente a representatividade clínica das informações obtidas, auxiliando em uma avaliação mais completa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 VÍDEO -->
+<section class="hc-sec hc-sec--white">
+  <div class="hc-wrap hc-video">
+    <div class="hc-prose">
+      <p class="lbl">07 · Instalação</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Veja como é simples instalar o dispositivo</h2>
+      <p>Veja como a instalação é simples e pode ser realizada em poucos minutos, com orientação da nossa equipe sempre que necessário. Assista ao vídeo e veja como funciona na prática.</p>
+    </div>
+    <div class="video-wrapper">
       <iframe src="https://www.youtube.com/embed/L0rif6eUctI" loading="lazy" title="Instalação do monitor cardíaco" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </section>
 
 <!-- CTA -->
-<section class="cta">
-  <div class="ecg-band" aria-hidden="true">
-    <div class="ecg-track">
-      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
-      <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path class="ecg-line" d="M0,110 L180,110 L200,110 L210,95 L222,125 L232,110 L360,110 L378,110 L390,40 L402,175 L414,110 L560,110 L582,110 L592,100 L604,120 L614,110 L760,110 L778,110 L790,40 L802,175 L814,110 L980,110 L1000,110 L1010,96 L1022,124 L1032,110 L1200,110"/></svg>
+<section class="hc-cta">
+  <div class="hc-wrap">
+    <img src="images/logo-branco.png" alt="PulseMD" width="140" height="45">
+    <h2>Estamos prontos para orientar você.</h2>
+    <p>Nossa equipe ajuda a identificar qual exame pode ser mais adequado para sua situação clínica.</p>
+    <div class="hc-ctas">
+      <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20agendar%20um%20monitoramento">Agendar agora</a>
+      <a class="btn btn-ghost" href="https://wa.me/555194293793?text=Olá,%20quero%20encontrar%20um%20médico%20parceiro">Encontrar um médico</a>
     </div>
   </div>
-  <img src="images/logo-branco.png" alt="PulseMD">
-  <h2 class="reveal">Estamos prontos para orientar você.</h2>
-  <p class="reveal">Nossa equipe ajuda a identificar qual exame pode ser mais adequado para sua situação clínica.</p>
-  <div class="hero-cta">
-    <a class="btn" href="https://wa.me/555194293793?text=Olá,%20quero%20agendar%20um%20monitoramento">Agendar agora</a>
-    <a class="btn btn-ghost" href="https://wa.me/555194293793?text=Olá,%20quero%20encontrar%20um%20médico%20parceiro" style="color:#dbe6ff;border-color:rgba(219,230,255,.4)">Encontrar um médico</a>
-  </div>
+  <svg class="trace" viewBox="0 0 1200 120" aria-hidden="true" focusable="false"><path class="base" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 H404 q8 -10 16 0 H436 l5 6 l8 -44 l9 54 l6 -16 H488 q14 -18 28 0 H600 H704 q8 -10 16 0 H736 l5 6 l8 -44 l9 54 l6 -16 H788 q14 -18 28 0 H900 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/><path class="run" pathLength="1" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 H404 q8 -10 16 0 H436 l5 6 l8 -44 l9 54 l6 -16 H488 q14 -18 28 0 H600 H704 q8 -10 16 0 H736 l5 6 l8 -44 l9 54 l6 -16 H788 q14 -18 28 0 H900 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/></svg>
 </section>
 
-<!-- MÉDICOS -->
-<section class="medicos" id="medicos">
-  <div class="container">
-    <h2 class="reveal">Mais informação diagnóstica para sua prática clínica</h2>
-    <p class="reveal">A PulseMD atua em parceria com médicos e clínicas em todo o Brasil, oferecendo monitorização domiciliar, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.</p>
-    <p class="reveal">Nossa estrutura foi desenhada para integrar tecnologia e suporte clínico, para que o médico solicitante tenha em mãos dados de alta qualidade e representatividade para a melhor tomada de decisão.</p>
-    <ul class="medico-steps reveal">
-      <li><i class="fa-solid fa-file-signature" aria-hidden="true"></i> Solicitação simples pelo WhatsApp</li>
-      <li><i class="fa-solid fa-earth-americas" aria-hidden="true"></i> Atendimento domiciliar em todo o Brasil</li>
-      <li><i class="fa-solid fa-file-waveform" aria-hidden="true"></i> Laudo elaborado por especialistas</li>
-      <li><i class="fa-solid fa-headset" aria-hidden="true"></i> Suporte ao paciente durante o exame</li>
+<!-- 08 MÉDICOS -->
+<section class="hc-sec hc-sec--dark" id="medicos">
+  <div class="hc-wrap hc-docs">
+    <div class="hc-prose">
+      <p class="lbl">08 · Para médicos</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Mais informação diagnóstica para sua prática clínica</h2>
+      <p>A PulseMD atua em parceria com médicos e clínicas em todo o Brasil, oferecendo monitorização domiciliar, acompanhamento durante todo o exame e laudos elaborados por especialistas, permitindo uma investigação diagnóstica mais completa.</p>
+      <p>Nossa estrutura foi desenhada para integrar tecnologia e suporte clínico, para que o médico solicitante tenha em mãos dados de alta qualidade e representatividade para a melhor tomada de decisão.</p>
+      <a class="btn hc-btn-light" href="https://wa.me/555194293793?text=Olá,%20sou%20médico(a)%20e%20quero%20entender%20como%20oferecer%20o%20monitoramento%20para%20meus%20pacientes">Sou médico ou clínica</a>
+    </div>
+    <ul class="hc-cells hc-cells--dark hc-cells--2">
+      <li><i class="fa-solid fa-file-signature" aria-hidden="true"></i>Solicitação simples pelo WhatsApp</li>
+      <li><i class="fa-solid fa-earth-americas" aria-hidden="true"></i>Atendimento domiciliar em todo o Brasil</li>
+      <li><i class="fa-solid fa-file-waveform" aria-hidden="true"></i>Laudo elaborado por especialistas</li>
+      <li><i class="fa-solid fa-headset" aria-hidden="true"></i>Suporte ao paciente durante o exame</li>
     </ul>
-    <a class="btn reveal" href="https://wa.me/555194293793?text=Olá,%20sou%20médico(a)%20e%20quero%20entender%20como%20oferecer%20o%20monitoramento%20para%20meus%20pacientes">Sou médico ou clínica</a>
   </div>
 </section>
 
-<!-- POR QUE CONFIAR -->
-<section class="section container">
-  <h2 class="reveal" style="text-align:center;">Por que confiar na PulseMD?</h2>
-  <div class="cards reveal-group">
-    <div class="card"><i class="fa-solid fa-check-double" aria-hidden="true"></i><h3>Tecnologia validada</h3></div>
-    <div class="card"><i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i><h3>Monitorização em tempo real</h3></div>
-    <div class="card"><i class="fa-solid fa-house-medical" aria-hidden="true"></i><h3>Atendimento domiciliar</h3></div>
-    <div class="card"><i class="fa-solid fa-user-doctor" aria-hidden="true"></i><h3>Especialistas durante todo o exame</h3></div>
-    <div class="card"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i><h3>Cobertura nacional</h3></div>
-    <div class="card"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i><h3>Atendimento em todo o Brasil</h3></div>
+<!-- 09 POR QUE CONFIAR -->
+<section class="hc-sec">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">09 · Confiança</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Por que confiar na PulseMD?</h2>
+    </div>
+    <ul class="hc-cells hc-cells--3">
+      <li><i class="fa-solid fa-check-double" aria-hidden="true"></i><h3>Tecnologia validada</h3></li>
+      <li><i class="fa-solid fa-tower-broadcast" aria-hidden="true"></i><h3>Monitorização em tempo real</h3></li>
+      <li><i class="fa-solid fa-house-medical" aria-hidden="true"></i><h3>Atendimento domiciliar</h3></li>
+      <li><i class="fa-solid fa-user-doctor" aria-hidden="true"></i><h3>Especialistas durante todo o exame</h3></li>
+      <li><i class="fa-solid fa-earth-americas" aria-hidden="true"></i><h3>Cobertura nacional</h3></li>
+      <li><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i><h3>Atendimento em todo o Brasil</h3></li>
+    </ul>
   </div>
 </section>
 
-<!-- MAPA -->
-<section class="section container">
-  <h2 class="reveal" style="text-align:center;">Atendemos pacientes em todo o Brasil</h2>
-  <div style="display:flex; flex-wrap:wrap; gap:30px; align-items:stretch; justify-content:center; margin-top:30px;">
-    <div style="flex:1; min-width:300px;" class="reveal">
+<!-- 10 MAPA -->
+<section class="hc-sec hc-sec--white">
+  <div class="hc-wrap">
+    <div class="sec-head">
+      <p class="lbl">10 · Cobertura</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Atendemos pacientes em todo o Brasil</h2>
+    </div>
+    <div class="hc-coverage">
       <div class="cobertura-card">
         <div class="cobertura-head"><i class="fa-solid fa-earth-americas" aria-hidden="true"></i> Cobertura Nacional</div>
         <div class="cobertura-list">
@@ -343,22 +406,27 @@
         </div>
         <div class="cobertura-foot">Atendimento domiciliar em todo o território brasileiro.</div>
       </div>
-    </div>
-    <div style="flex:1; min-width:300px;" class="mapa-box reveal">
-      <p style="margin-bottom:20px;">Nosso atendimento domiciliar já está disponível em todo o Brasil, do Sul ao Norte do país.</p>
-      <p style="margin-top:20px; font-size:14px; color:var(--muted);">Consulte a disponibilidade e o prazo para a sua cidade através do nosso atendimento.</p>
-      <a class="google-rating" href="https://share.google/KKXCzZQuONBABXvX8" target="_blank" rel="noopener">
-        <i class="fa-solid fa-star" aria-hidden="true"></i>
-        <span>5.0 · 5 avaliações no Google — ver perfil</span>
-      </a>
+      <div class="hc-panel hc-panel--pad">
+        <p>Nosso atendimento domiciliar já está disponível em todo o Brasil, do Sul ao Norte do país.</p>
+        <p class="hc-muted">Consulte a disponibilidade e o prazo para a sua cidade através do nosso atendimento.</p>
+        <a class="google-rating" href="https://share.google/KKXCzZQuONBABXvX8" target="_blank" rel="noopener">
+          <i class="fa-solid fa-star" aria-hidden="true"></i>
+          <span>5.0 · 5 avaliações no Google — ver perfil</span>
+        </a>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="section container">
-  <h2 class="reveal" style="text-align:center; margin-bottom:40px;">Perguntas Frequentes</h2>
-  <div class="faq-container reveal">
+<!-- 11 FAQ -->
+<section class="hc-sec">
+  <div class="hc-wrap hc-faq">
+    <div class="sec-head">
+      <p class="lbl">11 · Dúvidas</p>
+      <div class="sig-rule" aria-hidden="true"><svg viewBox="0 0 64 24"><path d="M0 12H18l3-3 3 3h3l3 4 4-14 5 20 3-10h6l4-4 4 4H64"/></svg></div>
+      <h2>Perguntas Frequentes</h2>
+    </div>
+    <div class="faq-container">
     <div class="faq-item">
       <button class="faq-question">O Holter pode não detectar minha arritmia?<span class="faq-icon" aria-hidden="true">+</span></button>
       <div class="faq-answer"><p>Pode acontecer. O Holter de 24 horas registra apenas um dia, e arritmias intermitentes podem simplesmente não ocorrer nesse intervalo. Quando os sintomas são esporádicos, ampliar a janela de registro para vários dias aumenta a chance de capturar o evento no momento em que ele acontece.</p></div>
@@ -375,6 +443,7 @@
       <button class="faq-question">Quanto tempo demora o laudo?<span class="faq-icon" aria-hidden="true">+</span></button>
       <div class="faq-answer"><p>O laudo é elaborado por médico especialista e entregue em formato digital em até 7 dias úteis após o fim do exame e a devolução do equipamento. Durante a monitorização cardíaca, a equipe acompanha a qualidade do sinal, o que reduz a chance de precisar repetir o registro por falha técnica.</p></div>
     </div>
+    </div>
   </div>
 </section>
 
@@ -383,7 +452,20 @@
   <div id="footer"></div>
 </div>
 
-<!-- BOTÃO FLUTUANTE -->
 <script src="js/script.js"></script>
+<script>
+/* pausa do monitor (WCAG 2.2.2): o botão só aparece com JS */
+(function () {
+  var b = document.querySelector('.motion-toggle');
+  if (!b || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  b.hidden = false;
+  b.addEventListener('click', function () {
+    var p = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', p);
+    document.body.classList.toggle('motion-paused', p);
+    b.querySelector('.mt-label').textContent = p ? 'Retomar animação' : 'Pausar animação';
+  });
+})();
+</script>
 </body>
 </html>
