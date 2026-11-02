@@ -18,6 +18,7 @@ A monitorização domiciliar não substitui atendimento de urgência nem funcion
 
 - [Início](https://pulsemd.com.br/): visão geral dos serviços e cobertura nacional.
 - [Exames](https://pulsemd.com.br/exames.html): lista dos exames oferecidos.
+- [Como funciona](https://pulsemd.com.br/como-funciona.html): do contato pelo WhatsApp ao laudo, os dois exames passo a passo, vídeo de instalação e cobertura nacional.
 - [Monitorização cardíaca](https://pulsemd.com.br/monitorizacao-cardiaca.html): como funciona o acompanhamento cardíaco domiciliar.
 - [Polissonografia domiciliar](https://pulsemd.com.br/polissonografia-domiciliar.html): como funciona o exame do sono em casa.
 - [Comparativo entre exames](https://pulsemd.com.br/comparativo-monitorizacao-domiciliar.html): Holter 24h, Holter 7 dias e polissonografia, lado a lado.
