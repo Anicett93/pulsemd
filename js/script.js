@@ -31,39 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   /* ===================== */
-  /* HEADER (componente) */
-  /* ===================== */
-  fetch("components/header.html")
-    .then(response => response.text())
-    .then(data => {
-      const header = document.getElementById("header");
-      if (header) {
-        header.innerHTML = data;
-        adjustTopPadding();
-      }
-    });
-
-  /* ===================== */
-  /* FOOTER (componente) */
-  /* ===================== */
-  fetch("components/footer.html")
-    .then(response => response.text())
-    .then(data => {
-      const footer = document.getElementById("footer");
-      if (footer) { footer.innerHTML = data; }
-    });
-
-  /* ===================== */
-  /* FAQ (componente) */
-  /* ===================== */
-  fetch("components/faq.html")
-    .then(response => response.text())
-    .then(data => {
-      const faq = document.getElementById("faq");
-      if (faq) { faq.innerHTML = data; }
-    });
-
-  /* ===================== */
   /* MENU HAMBÚRGUER (mobile) */
   /* ===================== */
   document.addEventListener("click", function (e) {
@@ -108,7 +75,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   initFaqAria();
-  setTimeout(initFaqAria, 400); /* cobre FAQ injetado via componente */
 
   /* ===================== */
   /* CONSENTIMENTO DE COOKIES (LGPD) + GA4 */

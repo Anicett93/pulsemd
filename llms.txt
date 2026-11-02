@@ -31,7 +31,7 @@ A monitorização domiciliar não substitui atendimento de urgência nem funcion
 - [Apneia do sono e fibrilação atrial](https://pulsemd.com.br/apneia-do-sono-e-fibrilacao-atrial.html): como a apneia obstrutiva do sono influencia o ritmo cardíaco e quando investigar.
 - [Recorrência de fibrilação atrial após ablação](https://pulsemd.com.br/fibrilacao-atrial-recorrencia-apos-ablacao.html): por que a arritmia pode retornar e o papel do sono nos resultados.
 - [Holter de 7 dias](https://pulsemd.com.br/holter-7-dias.html): vantagens da monitorização prolongada na investigação de arritmias.
-- [HiCardi](https://pulsemd.com.br/hicardi-monitorizacao.html): validação clínica da monitorização cardíaca em tempo real.
+- [HiCardi](https://pulsemd.com.br/hicardi-monitorizacao.html): como funciona a monitorização cardíaca em tempo real.
 
 ## Contato
 

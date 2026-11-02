@@ -8,3 +8,6 @@ videos/*/composition/
 # Skills locais de video (brag full + hyperframes): ~20MB com musica de terceiros, nao publicar no site
 .claude/skills/brag/
 .claude/skills/hyperframes-*/
+
+# Videos ficam fora do site (arquivo em ../pulsemd-redesign-lab/arquivo-site)
+videos/
