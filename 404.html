@@ -10,6 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css?v=20261102">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      .e404-links { display: grid; gap: 1px; background: var(--line-dark); grid-template-columns: repeat(3, minmax(0,1fr)); }
+      .e404-links a { background: var(--navy); padding: 16px 12px; color: #fff; text-decoration: none; transition: background .2s; }
+      .e404-links a:hover, .e404-links a:focus-visible { background: #10205c; }
+      .e404-links b { display: block; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; }
+      .e404-links span { display: block; margin-top: 6px; font-size: 13px; line-height: 1.4; color: var(--on-dark-2); }
+      .e404-tag { position: absolute; left: 50%; top: 6px; transform: translateX(-50%); font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--signal-hi); }
+      .e404-ch { position: relative; }
+      @media (max-width: 520px) { .e404-links { grid-template-columns: 1fr; } }
+    </style>
 </head>
 <body>
 
@@ -75,19 +85,37 @@
 <!-- /header --></div>
     </header>
 
-    <main id="conteudo">
-        <section class="section">
-            <div class="article-content" style="text-align:center;">
-                <h1>Não encontramos esta página</h1>
-                <p class="article-lead">O endereço pode ter mudado ou ter sido digitado com algum erro. Os caminhos abaixo levam ao que a maioria das pessoas procura.</p>
-                <p>
-                    <a class="btn" href="index.html">Ir para a página inicial</a>
-                    <a href="exames.html" style="margin-left:16px;">ou veja os exames</a>
-                </p>
-                <p><a href="publicacoes.html">Publicações</a> · <a href="como-funciona.html">Como funciona</a> · <a href="https://wa.me/555194293793" target="_blank" rel="noopener">Falar pelo WhatsApp</a></p>
-            </div>
-        </section>
-    </main>
+<section class="hc-hero" id="conteudo">
+  <div class="hc-wrap hc-hero-grid">
+    <div>
+      <p class="lbl">Erro 404 · página não encontrada</p>
+      <h1>Parece que um eletrodo <em>soltou.</em></h1>
+      <p class="hc-lead">Esta página não existe ou mudou de endereço. Acontece até nos melhores registros: é só reposicionar e seguir. Os atalhos do monitor levam ao que a maioria das pessoas procura.</p>
+      <div class="hc-ctas">
+        <a class="btn" href="index.html">Voltar para a página inicial</a>
+        <a class="btn btn-ghost" href="https://wa.me/555194293793?text=Olá,%20não%20encontrei%20uma%20página%20no%20site." target="_blank" rel="noopener">Falar com a equipe</a>
+      </div>
+    </div>
+
+    <figure class="hc-monitor" aria-label="Ilustração: traçado de ECG com um trecho de ruído no meio">
+      <div class="mon-top">
+        <span class="lbl">PulseMD · canal 1</span>
+        <button class="motion-toggle" type="button" aria-pressed="false" hidden><span class="mt-label">Pausar animação</span></button>
+      </div>
+      <div class="ch e404-ch">
+        <div class="ch-head"><span class="lbl"><b>ECG</b> · 404</span><span class="lbl">sinal com ruído</span></div>
+        <span class="e404-tag" aria-hidden="true">eletrodo solto</span>
+        <svg class="trace" viewBox="0 0 1200 120" aria-hidden="true" focusable="false"><path class="base" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 L311 41 L323 28 L330 78 L337 68 L343 86 L352 26 L359 77 L371 30 L380 33 L394 76 L400 94 L407 50 L413 95 L425 28 L434 27 L448 39 L458 75 L466 91 L473 95 L483 80 L491 35 L500 69 L507 79 L514 94 L520 48 L533 90 L545 62 L558 82 L571 68 L581 53 L589 53 L596 95 L606 77 L619 65 L632 58 L639 46 L653 75 L661 65 L669 74 L681 40 L688 93 L699 63 L710 98 L723 82 L736 30 L743 56 L756 42 L762 61 L775 58 L787 66 L793 81 L804 50 L811 85 L817 49 L827 38 L836 72 L848 85 L855 50 L868 73 L882 58 L890 77 L904 57 L900 60 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/><path class="run" pathLength="1" d="M0 60 H104 q8 -10 16 0 H136 l5 6 l8 -44 l9 54 l6 -16 H188 q14 -18 28 0 H300 L311 41 L323 28 L330 78 L337 68 L343 86 L352 26 L359 77 L371 30 L380 33 L394 76 L400 94 L407 50 L413 95 L425 28 L434 27 L448 39 L458 75 L466 91 L473 95 L483 80 L491 35 L500 69 L507 79 L514 94 L520 48 L533 90 L545 62 L558 82 L571 68 L581 53 L589 53 L596 95 L606 77 L619 65 L632 58 L639 46 L653 75 L661 65 L669 74 L681 40 L688 93 L699 63 L710 98 L723 82 L736 30 L743 56 L756 42 L762 61 L775 58 L787 66 L793 81 L804 50 L811 85 L817 49 L827 38 L836 72 L848 85 L855 50 L868 73 L882 58 L890 77 L904 57 L900 60 H1004 q8 -10 16 0 H1036 l5 6 l8 -44 l9 54 l6 -16 H1088 q14 -18 28 0 H1200"/></svg>
+      </div>
+      <nav class="e404-links" aria-label="Páginas principais">
+        <a href="exames.html"><b>Exames</b><span>Holter, HiCardi e polissonografia</span></a>
+        <a href="como-funciona.html"><b>Como funciona</b><span>do contato ao laudo</span></a>
+        <a href="publicacoes.html"><b>Publicações</b><span>artigos sobre coração e sono</span></a>
+      </nav>
+      <figcaption class="mon-note">Traçado ilustrativo. Não representa exame de paciente.</figcaption>
+    </figure>
+  </div>
+</section>
 
     <div id="footer">
 <footer>
@@ -100,6 +128,20 @@
 </footer>
 <!-- /footer --></div>
 
+<script>
+/* pausa do monitor (WCAG 2.2.2): o botão só aparece com JS */
+(function () {
+  var b = document.querySelector('.motion-toggle');
+  if (!b || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  b.hidden = false;
+  b.addEventListener('click', function () {
+    var p = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', p);
+    document.body.classList.toggle('motion-paused', p);
+    b.querySelector('.mt-label').textContent = p ? 'Retomar animação' : 'Pausar animação';
+  });
+})();
+</script>
     <script src="js/script.js?v=20261102"></script>
 </body>
 </html>
